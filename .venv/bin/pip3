@@ -1,4 +1,4 @@
-#!/home/felipe/Desktop/happy-penguin/.venv/bin/python3
+#!/home/felipe/Desktop/happy-penguin/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
