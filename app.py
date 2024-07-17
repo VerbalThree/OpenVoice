@@ -31,13 +31,13 @@ def close_db(e=None):
     if db is not None:
         db.close()
 
+# Homepage
 @app.route("/")
 @login_required
 def index():
-    return render_template("index.html")
+    return render_template("homepage.html")
 
-
-
+# Login
 @app.route("/login", methods=["GET", "POST"])
 def login():
     """Log the user in"""
@@ -70,11 +70,12 @@ def login():
         
         # Remember which user has logged in
         session["user_id"] = rows[0]["id"]
-        return redirect("/")
+        return redirect(("/"))
 
     # If the user clicked on a link (GET)
     return render_template("login.html")
 
+# Register
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -118,3 +119,13 @@ def register():
     
         # If the user clicked on a link (GET)
     return render_template("register.html")
+
+# Logout
+@app.route("/logout")
+def logout():
+    
+    # Forget any user_id
+    session.clear()
+
+    # Redirect the user to login form
+    return redirect("/")

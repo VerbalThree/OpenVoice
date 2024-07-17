@@ -291,3 +291,65 @@ top: 160px;
   color: black;
   
 }
+
+/* Dropdown Button */
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+  display: none;
+  position:fixed;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+  padding: 10px;
+  border: black solid;
+  border-radius: 25px;
+  margin: 15px 8px 0 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* Fix the icon size */
+#icon {
+  position: relative;
+  margin-left: 100px;
+  font-size: 35px;
+}
+
+/* Fix the logout phrase size */
+#logout {
+  position: absolute;
+  margin: 7px 0 0 20px;
+  }
