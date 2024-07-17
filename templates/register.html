@@ -1,10 +1,13 @@
-{% extends "login.html" %}
-
-{% block title %}
-    Sign Up
-{% endblock %}
-
-{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/form-page.css">
+    <link rel="icon" type="image/png" href="/static/imgs-&-svgs/hollowknight-2.jpg">
+    <title>Sign Up</title>
+</head>
+<body>
 <div class="bg-img">
     <form action="/register" method="post" class="container">
         <h1>Sign Up</h1>
@@ -18,8 +21,48 @@
         <p id="shift"><b>The Shift is on</b></p>
         <p id="caps"><b>The Caps Lock is on</b></p>
         <input id="checkbox-psw" type="checkbox" onclick="myFunction()"><b id="checkbox-text">Show Password</b>
-        <button type="submit" class="btn">Login</button>
+        <button type="submit" class="btn">Register</button>
     </form>
 </div>
-{% endblock %}
+<script>
+    /* Start of Detect Caps or Shift*/
+    var input = document.getElementById("myInput");
+    var text = document.getElementById("shift");
+    
+    input.addEventListener("keydown", function(event){
+        if(event.shiftKey){
+            text.style.display = "block";
+        }
+    });
+    
+    input.addEventListener("keyup", function(event){
+        if(!event.shiftKey){
+            text.style.display = "none";
+        }
+    });
+    
+    var text_2 = document.getElementById("caps");
+    input.addEventListener("keyup", function(event){
+        if(event.getModifierState("CapsLock")){
+            text_2.style.display = "block";
+        } else {
+            text_2.style.display = "none";
+        }
+    });
+    /* End of Detect Caps or Shift */
+    
+    /* Start of Show Password */
+    function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password"){
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+    /* End of Show Password */
+    </script>
+    </body>
+    </html>
+
 

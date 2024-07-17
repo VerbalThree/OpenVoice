@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/form-page.css">
     <link rel="icon" type="image/png" href="/static/imgs-&-svgs/hollowknight-2.jpg">
-    <title>{% block title %}Login{% endblock %}</title>
+    <title>Sign In</title>
 </head>
 <body>
 
-{% block main %}{% endblock %}
     <div class="bg-img">
         <form action="/login" method="post" class="container">
-            <h1>Login</h1>
+            <h1>Sign In</h1>
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter your Email" id="email" name="email" required autocomplete="off" autofocus>
             <label for="psw"><b>Password</b></label>
@@ -20,9 +19,9 @@
             <p id="shift"><b>The Shift is on</b></p>
             <p id="caps"><b>The Caps Lock is on</b></p>
             <input id="checkbox-psw" type="checkbox" onclick="myFunction()"><b id="checkbox-text">Show Password</b>
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn">Sign In</button>
         </form>
-        <a href="/templates/register.html">Don't have an account?</a>
+        <a href="/register">Don't have an account?</a>
     </div>
     
     <script>
