@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/form-page.css">
     <link rel="icon" type="image/png" href="/static/imgs-&-svgs/hollowknight-2.jpg">
-    <title>Form Page</title>
+    <title></title>
 </head>
 <body>
+
+    <main>
     <div class="bg-img">
-        <form action="/action_page.php" class="container">
+        <form action="/login" method="post" class="container">
             <h1>Login</h1>
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="Email" required>
+            <input type="text" placeholder="Enter your Email" id="email" name="email" required autocomplete="off" autofocus>
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter your password" id="myInput" name="psw" required><br><br>
+            <input type="password" placeholder="Enter your password" id="myInput" name="psw" required autocomplete="off" autofocus><br><br>
             <p id="shift"><b>The Shift is on</b></p>
             <p id="caps"><b>The Caps Lock is on</b></p>
             <input id="checkbox-psw" type="checkbox" onclick="myFunction()"><b id="checkbox-text">Show Password</b>
             <button type="submit" class="btn">Login</button>
         </form>
     </div>
+</main>
+
     <script>
         /* Start of Detect Caps or Shift*/
         var input = document.getElementById("myInput");
