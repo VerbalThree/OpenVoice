@@ -51,5 +51,43 @@ def login():
         return redirect("/")
 
 
-    # If the user clicked in a link (GET)
+    # If the user clicked on a link (GET)
     return render_template("login.html")
+
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    if request.method == "POST":
+
+        # Ensure the username was submitted
+        if not request.form.get("username"):
+            return apology("Username needed", 403)
+
+        # Ensure the email was submitted
+        elif not request.form.get("email"):
+            return apology("Email needed", 403)
+        
+        # Ensure the password was submitted
+        elif not request.form.get("psw"):
+            return apology("Password needed", 403)
+        
+        # Ensure if the password check is correct
+        if request.form.get("psw-check") != request.form.get("psw"):
+            return apology("The password check doesn't match", 403)
+        
+        # Check if the username already exists
+        rows = db.execute("select * from users where username = ?", request.form.get("username"))
+        if len(rows) > 0:
+            return apology("This username already exist",403)
+        
+        # Hash the password
+        hashed_password = generate_password_hash(request.form.get("psw"))
+
+        # Insert the user into the database
+        db.execute("insert into users (username,email, hash) values(?,?,?)", request.form.get("username"),request.form.get("email"), hashed_password)
+
+        # Redirect the user to the login page
+        return redirect("/login")
+    else:
+
+        # If the user clicked on a link (GET)
+        return render_template("register.html")

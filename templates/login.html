@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/form-page.css">
     <link rel="icon" type="image/png" href="/static/imgs-&-svgs/hollowknight-2.jpg">
-    <title></title>
+    <title>{% block title %}Login{% endblock %}</title>
 </head>
 <body>
 
-    <main>
+{% block main %}{% endblock %}
     <div class="bg-img">
         <form action="/login" method="post" class="container">
             <h1>Login</h1>
@@ -22,26 +22,26 @@
             <input id="checkbox-psw" type="checkbox" onclick="myFunction()"><b id="checkbox-text">Show Password</b>
             <button type="submit" class="btn">Login</button>
         </form>
+        <a href="/templates/register.html">Don't have an account?</a>
     </div>
-</main>
-
+    
     <script>
         /* Start of Detect Caps or Shift*/
         var input = document.getElementById("myInput");
         var text = document.getElementById("shift");
-
+        
         input.addEventListener("keydown", function(event){
             if(event.shiftKey){
                 text.style.display = "block";
             }
         });
-
+        
         input.addEventListener("keyup", function(event){
             if(!event.shiftKey){
                 text.style.display = "none";
             }
         });
-
+        
         var text_2 = document.getElementById("caps");
         input.addEventListener("keyup", function(event){
             if(event.getModifierState("CapsLock")){
@@ -51,7 +51,7 @@
             }
         });
         /* End of Detect Caps or Shift */
-
+        
         /* Start of Show Password */
         function myFunction() {
             var x = document.getElementById("myInput");
@@ -62,6 +62,6 @@
             }
         }
         /* End of Show Password */
-    </script>
+        </script>
 </body>
 </html>

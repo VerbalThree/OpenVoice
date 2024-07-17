@@ -5,9 +5,21 @@
 {% endblock %}
 
 {% block main %}
-
+<div class="bg-img">
+    <form action="/register" method="post" class="container">
+        <h1>Sign Up</h1>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter your Username" id="username" name="username" required autocomplete="off" autofocus>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter your Email" id="email" name="email" required autocomplete="off" autofocus>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter your Password" id="myInput" name="psw" required autocomplete="off" autofocus>
+        <input type="password" placeholder="Check your Password" id="myInput" name="psw-check" required autocomplete="off" autofocus><br><br>
+        <p id="shift"><b>The Shift is on</b></p>
+        <p id="caps"><b>The Caps Lock is on</b></p>
+        <input id="checkbox-psw" type="checkbox" onclick="myFunction()"><b id="checkbox-text">Show Password</b>
+        <button type="submit" class="btn">Login</button>
+    </form>
+</div>
 {% endblock %}
 
-{% block footer %}
-
-{% endblock %}
