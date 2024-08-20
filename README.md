@@ -13,5 +13,5 @@
 # Licence
 
 <ul>
-  <li><a href="happy-penguin/LICENSE">MIT License</a></li>
+  <li><a href="/LICENSE">MIT License</a></li>
 </ul>
