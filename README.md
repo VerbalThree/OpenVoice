@@ -10,7 +10,7 @@
 <a href="https://www.youtube.com/watch?v=NJGLR5gl6m4">Only Noobs Build Beautiful Websites</a><br>
 <a href="https://www.youtube.com/watch?v=pN92rnO_n5U">How to Design a Website – A UX Wireframe Tutorial</a>
 
-# Licence
+# License
 
 <ul>
   <li><a href="/LICENSE">MIT License</a></li>
