@@ -15,8 +15,14 @@
 <li><a href="https://www.youtube.com/watch?v=xW34VRLErmU">RABBITMQ VS KAFKA - QUAL É MELHOR PARA SUA APLICAÇÃO?</a></li>
 </ul>
 
-# License
+# Criadores
+<h3>Prova de Conceito (POC) por <a href="https://github.com/VerbalThree">Felipe Pereira</h3>
+<h3>Gustavo Marinho</h3>
+<h3>Maria Eduarda</h3>
+<h3>Gustavo S.</h3>
+<h3>Laryssa Torres</h3>
 
+# License
 <ul>
   <li><a href="/LICENSE">MIT License</a></li>
 </ul>
