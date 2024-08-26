@@ -15,6 +15,20 @@
 <li><a href="https://www.youtube.com/watch?v=xW34VRLErmU">RABBITMQ VS KAFKA - QUAL É MELHOR PARA SUA APLICAÇÃO?</a></li>
 </ul>
 
+# Ferramentas Utilizadas
+
+<ul>
+  <li>Apache Kafka</li>
+    <li>Laravel</li>
+    <li>reCAPTCHA</li>
+    <li>Vue.js</li>
+    <li>Web Socket</li>
+    <li>MySQL</li>
+    <li>ELK Stack</li>
+    <li>Redis</li>
+    <li>AWS S3</li>
+</ul>
+
 # Criadores
 <h3>Prova de Conceito (POC) por <a href="https://github.com/VerbalThree">Felipe Pereira</h3>
 <h3>Gustavo Marinho</h3>
@@ -22,7 +36,7 @@
 <h3>Gustavo S.</h3>
 <h3>Laryssa Torres</h3>
 
-# License
+# Licença
 <ul>
   <li><a href="/LICENSE">MIT License</a></li>
 </ul>
