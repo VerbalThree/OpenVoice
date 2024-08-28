@@ -13,6 +13,7 @@
 <li><a href="https://en.wikipedia.org/wiki/Apache_Kafka">Apache kafka - Wikipedia</a></li>
 <li><a href="https://youtu.be/qOqXz5Qv_-8?si=FWcHzF2etbtuMZ7U">Kafka (Plataforma de Mensageria e Streaming) // Dicionário do Programador</a></li>
 <li><a href="https://www.youtube.com/watch?v=xW34VRLErmU">RABBITMQ VS KAFKA - QUAL É MELHOR PARA SUA APLICAÇÃO?</a></li>
+<li><a href="https://radixweb.com/blog/guide-to-single-page-applications">A Comprehensive Guide to Single Page Applications</a></li>
 </ul>
 
 # Ferramentas Utilizadas
