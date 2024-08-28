@@ -50,6 +50,12 @@ form.show{
     text-indent: 20px;
     border-radius: 5px;
     margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.input::placeholder {
+    font-size: 20px;
+    color: #000000
 }
 
 .btn { /* Login Button */
@@ -71,10 +77,6 @@ form.show{
     opacity: 1;
 }
 
-.input::placeholder {
-    font-size: 20px;
-    color: #000000
-}
 
 .decorative-line {
     border: 0;
