@@ -59,6 +59,16 @@ form.show{
     height: 38px;
     border-radius: 10px;
     margin: 24px;
+    opacity: 0.9;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+}
+
+.btn:hover{
+    background-color: #898989;
+    color: black;
+    opacity: 1;
 }
 
 .input::placeholder {
@@ -83,7 +93,7 @@ form.show{
     box-shadow: inset 0 0 0 1px #ADADAD; /* This simulates the inner border */
     width: 395px;
     text-align: center;
-    margin-top: -100px;
+    margin-top: -60px;
     opacity: 0;
     transform: scale(0.9);
     transition: opacity 0.2s ease, transform 0.2s ease;
@@ -118,4 +128,30 @@ form.show{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.links {
+    text-align: center;
+}
+
+.bottom-line {
+    background: rgb(173, 173, 173); 
+    width: 200%;
+}
+
+.link {
+    margin: 10px 50px 10px 10px;
+    font-size: 15; 
+    color: #464646; 
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+a {
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+
+}
+
+a:hover {
+    background-color: #dfd4d4;    
 }

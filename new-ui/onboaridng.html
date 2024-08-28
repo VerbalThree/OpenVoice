@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>OpenVoice</title>
 </head>
 <body>
 
@@ -24,21 +24,21 @@
         <input type="text" class="input" v-model="username" placeholder="Nome de Usuário" required><br>
         <input type="text" class="input" v-model="psw" placeholder="Senha" required><br>
         <button type="submit" v-model="loginBtn" class="btn" style="color:white;"><b>Entrar</b></button>
-        <hr class="decorative-line" style="background: #ADADAD; width: 315px; margin: 0 auto; margin-bottom: 25px;">
-        <a href="" class="esqueceuAsenha" style="color: #006DFC; text-decoration: none;"><b>Esqueceu a Senha?</b></a>
+        <hr class="form-line" style="background: #ADADAD; width: 315px; margin: 0 auto; margin-bottom: 25px; border:solid 1px #ADADAD;">
+        <a href="" class="esqueceuAsenha" style="color: #006DFC; text-decoration: none; border: 1px solid transparent; border-radius: 5px;"><b>Esqueceu a Senha?</b></a>
     </form>
 
     <!-- Else Box -->
     <div class="else-box">
-        <h6 style="font-size: 15px;">Não tem uma conta?<a href="" style="color: #006DFC; text-decoration: none;"> Crie uma agora</a></h6>
+        <h6 style="font-size: 15px;">Não tem uma conta?<a href="" style="color: #006DFC; text-decoration: none; border: 1px solid transparent; border-radius: 5px;"> Crie uma agora</a></h6>
     </div>
 
-    <hr class="decorative-line" style="background: rgb(173, 173, 173); width: 315px; margin: 0px auto 50px;">
-    
+    <hr class="bottom-line" style="width: 183%; margin-left: -175px; background: #ADADAD; border: solid 1px #ADADAD; margin-bottom: -50px;">
+
     <!-- Important Links -->
     <div class="links">
-        <a href="" style="font-size: 15; color: #464646">Sobre Nós</a>
-        <a href="">Documentação</a>
+        <a href="" class="link">Sobre Nós</a>
+        <a href="" class="link">Documentação</a>
     </div>
 </div>
 
@@ -63,6 +63,8 @@
                 div.classList.add('show');
             }
         }
+
+        // Vue 
         const app = Vue.createApp({
             data() {
                 return {
