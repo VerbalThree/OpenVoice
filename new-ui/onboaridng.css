@@ -1,7 +1,22 @@
+body {
+    font-family: inter;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .container {
     border: 1px solid #ADADAD; /* Outer Border */
     padding: 10px; /* Adjust this value to the needs */
     box-shadow: inset 0 0 0 1px #ADADAD; /* This simulates the inner border */
+    width: 395px;
+    height: 416px;
+    text-align: center;t
 }
 
 .input {
@@ -11,6 +26,8 @@
     width: 315px;
     height: 50px;
     text-indent: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .btn { /* Login Button */
@@ -19,6 +36,7 @@
     width: 315px;
     height: 38px;
     border-radius: 10px;
+    margin: 24px;
 }
 
 .input::placeholder {
@@ -32,3 +50,8 @@
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient color */
     margin: 20px 0; /* Spacing around the line */
 }
+
+.esqueceuAsenha {
+    font-size: 15px;
+}
+

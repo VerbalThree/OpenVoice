@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" placeholder="Username">
     <link rel="stylesheet" href="/new-ui/onboaridng.css">
+
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
 
     <div class="form" id="app">
         <form action="" class="container">
-        <input type="text" class="input" v-model="username" placeholder="Nome de Usuário" required><br><br>
-        <input type="text" class="input" v-model="psw" placeholder="Senha" required><br><br>
-        <button type="submit" v-model="loginBtn" class="btn"><b style="color:white;">Entrar</b></button>
+        <h1 style="font-size: 30px; padding: 15px 15px 15px 15px;">OpenVoice</h1>
+        <input type="text" class="input" v-model="username" placeholder="Nome de Usuário" required><br>
+        <input type="text" class="input" v-model="psw" placeholder="Senha" required><br>
+        <button type="submit" v-model="loginBtn" class="btn" style="color:white;">Entrar</button>
+        <hr class="decorative-line" style="background: #ADADAD;">
+        <a href="" class="esqueceuAsenha" style="color: #006DFC; text-decoration: none;"><b>Esqueceu a Senha?</b></a>
         </form>
-        <hr class="decorative-line">
     </div>
 
     <!-- Vue -->
