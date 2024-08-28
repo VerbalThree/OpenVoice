@@ -1,13 +1,9 @@
 import './bootstrap';
-
 import { createApp } from 'vue';
-import ExampleComponent from "/workspace/OpenVoice/OpenVoice-laravel/resources/js/app.js"
+import router from './router';
+import ExampleComponent from "/workspace/OpenVoice/OpenVoice-laravel/resources/components/examplecomponent.vue"
 
-const app = createApp({
-    components: {
-        'example-component': ExampleComponent
-    }
-});
-
+const app = createApp({});
+app.use(router);
 app.mount('#app');
 
