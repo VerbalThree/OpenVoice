@@ -1,7 +1,12 @@
-body {
+* {
     font-family: inter;
 }
 
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: inter;
+}
 
 .inter{
   font-family: "Inter", sans-serif;
@@ -10,15 +15,32 @@ body {
   font-style: normal;
 }
 
-.container {
+
+/* Login Form */
+.loginForm {
     border: 1px solid #ADADAD; /* Outer Border */
     padding: 10px; /* Adjust this value to the needs */
     box-shadow: inset 0 0 0 1px #ADADAD; /* This simulates the inner border */
     width: 395px;
     height: 416px;
-    text-align: center;t
+    text-align: center;
+    margin-top: 90px;
 }
 
+/* Login Form Grow Animation */
+form {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Login Form End of the Grow Animation */
+form.show{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Input Field */
 .input {
     background-color: #DEDEDE;
     border: 1px solid #ADADAD;
@@ -55,3 +77,45 @@ body {
     font-size: 15px;
 }
 
+.else-box {
+    border: 1px solid #ADADAD; /* Outer Border */
+    padding: 10px 10px 10px 10px; /* Adjust this value to the needs */
+    box-shadow: inset 0 0 0 1px #ADADAD; /* This simulates the inner border */
+    width: 395px;
+    text-align: center;
+    margin-top: -100px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.else-box.show{
+    opacity: 1;
+    transform: scale(1);
+}
+.form {
+    width: 417px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side{
+    flex :1;
+    background-size: cover;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+
+.right-side{
+    flex: 1;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
