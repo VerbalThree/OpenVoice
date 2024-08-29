@@ -6,8 +6,10 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@vue/compiler-sfc": "^3.4.38",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
-        "vite": "^5.0"
+        "vite": "^5.0",
+        "vue": "^3.4.38"
     }
 }
