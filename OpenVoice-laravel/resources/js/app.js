@@ -4,6 +4,8 @@ import router from './router';
 import ExampleComponent from "/workspace/OpenVoice/OpenVoice-laravel/resources/components/examplecomponent.vue"
 
 const app = createApp({});
+app.component('example')
+
 app.use(router);
 app.mount('#app');
 
