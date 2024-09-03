@@ -40,23 +40,6 @@ form.show{
     transform: scale(1);
 }
 
-/* Input Field */
-.input {
-    background-color: #DEDEDE;
-    border: 1px solid #ADADAD;
-    box-shadow: inset 0 0 0 1px #ADADAD; /* This simulates the inner border */
-    width: 315px;
-    height: 50px;
-    text-indent: 20px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    font-size: 20px;
-}
-
-.input::placeholder {
-    font-size: 20px;
-    color: #000000
-}
 
 .btn { /* Login Button */
     background-color: black;
@@ -156,4 +139,68 @@ a {
 
 a:hover {
     background-color: #dfd4d4;    
+}
+
+/* Floating Label */
+.input-container {
+    width: 280px;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #b3b3b3;
+}
+/* Input Field */
+.text-input {
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #ADADAD;
+    background-color: #DEDEDE;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    box-shadow: inset 0 0 0 1px #ADADAD; /* This simulates the inner border */
+    text-indent: 20px;
+    margin-bottom: 15px;
+}
+
+.label::before {
+    content: '';
+    height: 5px;
+    background: #272530;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.text-input:focus {
+    border: 2px solid #7e4ccb;   
+}
+
+.text-input:focus + .label,
+.filled {
+    top: -10px;
+    color:  #7e4ccb;
+    font-size: 14px;
+}
+
+.text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.text-input:focus::placeholder {
+    opacity: 1;
 }
