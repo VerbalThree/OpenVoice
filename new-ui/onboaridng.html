@@ -23,8 +23,8 @@
         <h1 style="font-size: 30px; padding: 15px 15px 15px 15px;">OpenVoice</h1>
         
         <div class="input-container">
-            <input type="text" name="username" class="text-input" autocomplete="off" placeholder="Enter your username" required>
-            <label class="label" for="username">Usernmae</label>
+            <input type="text" id="username" class="text-input" autocomplete="off" placeholder="Enter your username" required>
+            <label class="label" for="username">Username</label>
         </div>
 
         <div class="input-container">
@@ -73,6 +73,15 @@
             }
         }
 
+        document.querySelectorAll('.text-input').forEach(input => {
+            input.addEventListener('input', () => {
+                if(input.value) {
+                    input.classList.add('filled');
+                } else {
+                    input.classList.remove('filled');
+                }
+            });
+        });
         // Vue 
         const app = Vue.createApp({
             data() {

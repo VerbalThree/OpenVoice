@@ -52,6 +52,7 @@ form.show{
     cursor: pointer;
     color: white;
     transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    font-size: 15px;
 }
 
 .btn:hover{
@@ -155,11 +156,12 @@ a:hover {
     padding: 0 2px;
     z-index: 1;
     color: black;
+    pointer-events: none; /* */
 }
 /* Input Field */
 .text-input {
-    padding: 1.1rem;
-    width: 130%;
+    padding: 1rem;
+    width: 131%; /* 130 */
     height: 100%;
     position: relative;
     border: 1px solid #ADADAD;
@@ -176,7 +178,7 @@ a:hover {
 .label::before {
     content: '';
     height: 5px;
-    background: transparent;
+    background: #DEDEDE;
     position: absolute;
     left: 0;
     top: 10px;
@@ -203,4 +205,16 @@ a:hover {
 
 .text-input:focus::placeholder {
     opacity: 1;
+}
+
+.text-input:focus,
+.text-input:not(:placeholder-show){
+    border: 2px solid #7e4ccb;
+}
+
+.text-input:focus + .label,
+.text-input:not(:placeholder-shown) + .label {
+    top: -10px;
+    color: black;
+    font-size: 14px;
 }
