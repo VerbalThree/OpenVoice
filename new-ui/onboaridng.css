@@ -154,12 +154,12 @@ a:hover {
     transition: all 0.2s;
     padding: 0 2px;
     z-index: 1;
-    color: #b3b3b3;
+    color: black;
 }
 /* Input Field */
 .text-input {
-    padding: 0.8rem;
-    width: 100%;
+    padding: 1.1rem;
+    width: 130%;
     height: 100%;
     position: relative;
     border: 1px solid #ADADAD;
@@ -176,7 +176,7 @@ a:hover {
 .label::before {
     content: '';
     height: 5px;
-    background: #272530;
+    background: transparent;
     position: absolute;
     left: 0;
     top: 10px;
