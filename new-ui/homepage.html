@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+     <div class="topnav" id="myTopnav">
+        <a href="#home">OpenVoice</a>
+        <input type="text" placeholder="Search...">
+        <div class="topnav-right">
+        <a href="#news" class="active">Home</a>
+        <a href="#contact">Settings</a>
+        <a href="#about">Profile</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> 
+     </div>
+  
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if(x.className === "myTopnav"){
+                x.className += "responsive";
+            } else {
+                x.className = "myTopnav";
+            }
+        }
+
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if(prevScrollpos > currentScrollPos){
+                document.getElementById("myTopnav").style.top = "0";
+            } else {
+                document.getElementById("myTopnav").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+     </script>
+</body>
+</html>
