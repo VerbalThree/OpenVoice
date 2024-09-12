@@ -26,7 +26,6 @@
     <li>Web Socket</li>
     <li>MySQL</li>
     <li>ELK Stack</li>
-    <li>Redis</li>
     <li>AWS S3</li>
 </ul>
 
@@ -36,6 +35,7 @@
 <h3>Maria Eduarda</h3>
 <h3>Gustavo S.</h3>
 <h3>Laryssa Torres</h3>
+<h3>Ismael</h3>
 
 # Licença
 <ul>
