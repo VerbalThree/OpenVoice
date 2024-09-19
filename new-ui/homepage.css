@@ -1,3 +1,14 @@
+* {
+    font-family: inter;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 /* Style */
 .topnav {
     background-color: #333;
@@ -48,7 +59,7 @@
     padding: 0 50px;
 }
 
-/* Style the search box inside the navigation bar */
+/* Style the search box in the navigation bar */
 .topnav input[type=text] {
         padding: 6px;
         border: 1px solid #BABABA;
@@ -59,6 +70,22 @@
         height: 25px;
         border-radius: 10px;
         background: #CFCFCF;
+        outline: none; /* Remove o destaque em azul */
+        transition: width 0.3s cubic-bezier(1,0,0,1), transform 0.3s ease, border-color 0.3s ease; /* Transição suave para a largura, transformação e cor da borda */
+        transform-origin: center; /* Garante que a transformação seja centralizada */
+}
+
+/* Quando o mouse está sobre a Search Bar */
+.topnav input[type=text]:hover {
+    transform: scale(0.88); /* Diminui um pouco no hover */
+    border-color: black; /* Apenas muda a cor da borda no hover */
+}
+
+/* Quando o usuário clica na barra de pesquisa (foco) */
+.topnav input[type=text]:focus {
+    width: 400px; /* Expande a largura suavemente */
+    transform: scale(1); /* Garante que o foco não altere a escala */
+    margin-right: -300px; /* Ajusta o deslocamento para manter a barra centralizada */
 }
 
 
@@ -84,5 +111,37 @@
         display: block;
         text-align: left;
     }
+}
+
+/* Splash Screen */
+#splash {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#splash h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#splash p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Transição suave para o conteúdo */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.8s ease;
 }
 

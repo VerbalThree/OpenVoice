@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    !-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
+
+    <!-- Splash Screen -->
+    <div id="splash">
+        <h1>Bem-vindo ao meu site</h1>
+        <p>Carregando...</p>
+    </div>
+
     <!-- Nav Bar -->
      <div class="topnav" id="myTopnav">
         <a href="#home">OpenVoice</a>
@@ -49,6 +62,18 @@
             prevScrollpos = currentScrollPos;
         }
 
+        /* Splash Screen */
+        window.addEventListener("load", function() {
+
+            // Mostra o conteúdo e esconde a splash screen após 3 segundos
+            setTimeout(function() {
+                document.getElementById("splash").classList.add("fade-out");
+                setTimeout(function() {
+                    document.getElementById("splash").style.display = "none";
+                    document.getElementById("content").style.display = "block";
+                }, 800); // Corresponde ao tempo da transição de fade-out no CSS
+            }, 3000); // Tempo de exibição da splash screen
+        });
      </script>
 </body>
 </html>
