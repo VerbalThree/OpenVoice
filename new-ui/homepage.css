@@ -60,8 +60,13 @@
 }
 
 /* Style the search box in the navigation bar */
+.search-container{
+    position: relative;
+    display: inline-block;
+}
+
 .topnav input[type=text] {
-        padding: 6px;
+        padding: 6px 6px 6px 30px; /* Adiciona espaço à esquerda para o ícone */
         border: 1px solid #BABABA;
         margin-top: 0px;
         margin-right: -300px;
@@ -85,9 +90,42 @@
 .topnav input[type=text]:focus {
     width: 400px; /* Expande a largura suavemente */
     transform: scale(1); /* Garante que o foco não altere a escala */
-    margin-right: -300px; /* Ajusta o deslocamento para manter a barra centralizada */
+    /* margin-right: -300px;  Ajusta o deslocamento para manter a barra centralizada */ 
 }
 
+.search-container:hover i {
+    transform: scale(0.78); /* Diminui o ícone junto com a barra de pesquisa */
+    /* left: 25px; */
+    /* top: 10px; */
+    transition: transform 0.3s ease;
+}
+
+/* Quando o foco está na Search Bar */
+.topnav input[type=text]:focus ~ i {
+    transform: scale(1); /* Garante que o ícone não se transforme quando o campo de entrada está em foco */
+    right: 25px;
+    top: 18px;
+}
+
+/* Estilo do Ícone */
+.search-container i {
+    position: absolute;
+    left: 10px; /* Posiciona o ícone à esquerda dentro da barra de pesquisa */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; /* Ajusta o tamanho do ícone */
+    color: #BABABA; /* Cor do ícone */
+    pointer-events: none; /* Garante que o ícone não interfira com a interação do usuário */
+    transition: transform 0.3s ease, left 0.3s ease, top 0.3s ease; /* Transição suave para o ícone */
+}
+
+/* Quando o foco está na Search Bar e o mouse está sobre a Search Bar */
+.topnav input[type=text]:focus ~ i,
+.search-container: hover input[type=text]:focus ~ i {
+    transform: scale(1); /* Garante que o ícone não se transforme quando o campo de entrada está em foco */
+    left: 25px; /* Ajuste a posição do ícone quando o campo está em foco */
+    top: 18px; /* Ajusta a posição vertical do ícone quando o campo está em foco */
+}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px){
