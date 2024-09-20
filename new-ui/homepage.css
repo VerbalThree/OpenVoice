@@ -93,21 +93,7 @@
     /* margin-right: -300px;  Ajusta o deslocamento para manter a barra centralizada */ 
 }
 
-.search-container:hover i {
-    transform: scale(0.78); /* Diminui o ícone junto com a barra de pesquisa */
-    /* left: 25px; */
-    /* top: 10px; */
-    transition: transform 0.3s ease;
-}
-
-/* Quando o foco está na Search Bar */
-.topnav input[type=text]:focus ~ i {
-    transform: scale(1); /* Garante que o ícone não se transforme quando o campo de entrada está em foco */
-    right: 25px;
-    top: 18px;
-}
-
-/* Estilo do Ícone */
+/* Icon inside de Search Bar */
 .search-container i {
     position: absolute;
     left: 10px; /* Posiciona o ícone à esquerda dentro da barra de pesquisa */
@@ -116,15 +102,32 @@
     font-size: 18px; /* Ajusta o tamanho do ícone */
     color: #BABABA; /* Cor do ícone */
     pointer-events: none; /* Garante que o ícone não interfira com a interação do usuário */
-    transition: transform 0.3s ease, left 0.3s ease, top 0.3s ease; /* Transição suave para o ícone */
+    opacity: 1;
+    transition: transform 0.3s ease, left 0.3s ease, top 0.3s ease, opacity 0.3s ease; /* Transição suave para o ícone */
 }
 
-/* Quando o foco está na Search Bar e o mouse está sobre a Search Bar */
-.topnav input[type=text]:focus ~ i,
-.search-container: hover input[type=text]:focus ~ i {
-    transform: scale(1); /* Garante que o ícone não se transforme quando o campo de entrada está em foco */
-    left: 25px; /* Ajuste a posição do ícone quando o campo está em foco */
-    top: 18px; /* Ajusta a posição vertical do ícone quando o campo está em foco */
+.search-container:hover i {
+    transform: scale(0.55); /* Diminui o ícone junto com a barra de pesquisa */
+    left: 25px;
+    top: 11px;
+    opacity: 0;
+    transition: transform 0.3s ease, left 0.3s ease, top 0.3s ease, opacity 0.3s ease;
+}
+
+.topnav input[type=text]:focus ~ i {
+    transform: translateY(-50%);
+    left: 10px;
+    top: 50%;
+    opacity: 1;
+    transition: transform 0.3s ease, left 0.3s ease, top 0.3s ease, opacity 0.3s ease;    
+}
+
+.topnav input[type=text]:focus ~.search-container:hover i {
+    transform: translateY(-50%) !important;
+    left: 10px !important;
+    top: 50% !important;
+    opacity: 0;
+    transition: opacity 0.3s ease !important;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
