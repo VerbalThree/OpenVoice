@@ -13,7 +13,7 @@ body {
     font-style: normal;
   }
 
-/* Style */
+/* The Topnav */
 .topnav {
     background-color: #FFF;
     overflow: hidden;
@@ -28,9 +28,12 @@ body {
     align-items: center;
     padding: 0 16px;
     justify-content: space-between;
+    border-bottom: 2px solid #FFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
-/* Style the links inside */
+/* Style the links inside the Topnav */
 .topnav a {
     display: block;
     color: #000;
