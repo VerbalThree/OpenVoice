@@ -59,8 +59,7 @@ form.show{
     background-color: #898989;
     color: black;
     opacity: 1;
-}
-
+}  
 
 .decorative-line {
     border: 0;
@@ -217,4 +216,10 @@ a:hover {
     top: -10px;
     color: black;
     font-size: 14px;
+}
+
+
+/* Logo Size and Position */
+.logo {
+
 }
