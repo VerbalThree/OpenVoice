@@ -295,3 +295,19 @@ a:hover {
         top: -150px;
     }
 }
+
+/* Bloco de Alerta */
+#alert {
+    position: absolute;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    background-color: #DE2D2D;
+    color: white;
+    padding: 10px;
+    display: none; /* Mantém o alerta oculto inicialmente */
+    z-index: 9999; /* Certifica-se de que o alerta esteja acima de outros elementos */
+    left: 465px;
+    top: 50px;
+    border: 1px solid #DE2D2D;
+    border-radius: 5px;
+
+}

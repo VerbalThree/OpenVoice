@@ -19,6 +19,12 @@
         
     <!-- Left Side -->        
     <div class="left-side">
+    
+    <!-- Bloco de Alerta -->
+     <div id="alert" class="alert">
+        Este projeto ainda está em desenvolvimento!
+     </div>
+
 
     <form action="" class="loginForm">
         <h1 style="font-size: 30px; padding: 15px 15px 15px 15px;">OpenVoice</h1>
@@ -90,7 +96,25 @@
             for(let div of divs){
                 div.classList.add('show');
             }
-        }
+
+            // Bloco de alerta
+            const submitBtn = document.querySelector('.loginForm button[type="submit"]');
+            if (!submitBtn) {
+                throw new Error("Botão de envio não encontrado.");
+            }
+
+            submitBtn.addEventListener('click', function(event) {
+                event.preventDefault(); // Evita o envio do formulário
+
+                // Mostra o bloco de alerta
+                const alertBox = document.getElementById('alert');
+                if (!alertBox) {
+                    throw new Error("Bloco de alerta não encontrado.");
+                }
+                alertBox.style.display = 'block';
+            });
+
+        } // Window onload
 
         document.querySelectorAll('.text-input').forEach(input => {
             input.addEventListener('input', () => {
@@ -101,7 +125,7 @@
                 }
             });
         });
-
+  
         // Vue 
         const app = Vue.createApp({
             data() {
@@ -114,5 +138,3 @@
     </script>
 </body>
 </html>
-
-<!-- input groups -->
