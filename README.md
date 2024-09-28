@@ -12,7 +12,7 @@ A missão desse projeto é oferecer uma plataforma que respeite a liberdade de e
 
 ## Documentação
 
-Explore os princípios que fundamentam a criação dessa plataforma.
+Explore os princípios que fundamentam a criação desta plataforma.
 
 **[Documentação em PDF](media/Documentação_OpenVoice.pdf)**
 
