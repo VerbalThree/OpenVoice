@@ -15,7 +15,7 @@ A missão desse projeto é oferecer uma plataforma que respeite a liberdade de e
 | Autor | Descrição |
 | :---: | :--- |
 | <img src="https://avatars.githubusercontent.com/u/81395037?v=4" width="100px"> | **Prova de Conceito (POC) por [Felipe Pereira](https://github.com/VerbalThree)** |
-| <img src="https://avatars.githubusercontent.com/u/169792459?v=4" width="100px"> | **[Gustavo Marinho](https://avatars.githubusercontent.com/u/169792459?v=4)** |
+| <img src="https://avatars.githubusercontent.com/u/169792459?v=4" width="100px"> | **[Gustavo Marinho](https://github.com/GusttaviCute)** |
 | <img src="media/user.png" width="100px"> | **Ismael Avelino** |
 | <img src="media/user.png" width="100px"> | **Laryssa Torres** |
 | <img src="media/user.png" width="100px"> | **Maria Eduarda** |
