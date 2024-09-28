@@ -10,6 +10,10 @@ Diferente das redes sociais tradicionais, OpenVoice coleta o mínimo de dados pe
 
 A missão desse projeto é oferecer uma plataforma que respeite a liberdade de expressão e colca o controle da privacidade nas mãos dos usuários.
 
+## Documentação
+
+Explore os princípios que fundamentam a criação dessa plataforma.
+
 ## Créditos
 
 | Autor | Descrição |
