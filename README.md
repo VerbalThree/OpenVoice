@@ -1,41 +1,24 @@
-# Hello, people!
+<p align="center">
+  <img src="media/logo.svg" width="860px">
+</p>
 
-# Bibliografia 
-<ul>
-<li><a href="https://www.youtube.com/watch?v=qyomWr_C_jA&t=612s">The Easy Way to Design Top Tier Websites</a></li>
-<li><a href="https://www.youtube.com/watch?v=wIuVvCuiJhU">world's shortest UI/UX design course</a></li>
-<li><a href="https://www.youtube.com/watch?v=1pW_sk-2y40&list=WL&index=1">world's shortest Figma course</a></li>
-<li><a href="https://www.geeksforgeeks.org/mern-stack/">MERN Stack</a></li>
-<li><a href="https://www.youtube.com/watch?v=Kkjpvfwhv-c">2 Ways of Building Websites</a></li>
-<li><a href="https://www.youtube.com/watch?v=NJGLR5gl6m4">Only Noobs Build Beautiful Websites</a></li>
-<li><a href="https://www.youtube.com/watch?v=pN92rnO_n5U">How to Design a Website – A UX Wireframe Tutorial</a></li>
-<li><a href="https://youtu.be/uvb00oaa3k8?si=1vuIDlojIRP9fHa_">Kafka in 100 Seconds</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Apache_Kafka">Apache kafka - Wikipedia</a></li>
-<li><a href="https://youtu.be/qOqXz5Qv_-8?si=FWcHzF2etbtuMZ7U">Kafka (Plataforma de Mensageria e Streaming) // Dicionário do Programador</a></li>
-<li><a href="https://www.youtube.com/watch?v=xW34VRLErmU">RABBITMQ VS KAFKA - QUAL É MELHOR PARA SUA APLICAÇÃO?</a></li>
-<li><a href="https://radixweb.com/blog/guide-to-single-page-applications">A Comprehensive Guide to Single Page Applications</a></li>
-</ul>
+# OpenVoice
+O OpenVoice é uma rede social desenvolvida com o foco em priorizar a segurança dos dados e a privacidade dos usuários. 
 
-# Ferramentas Utilizadas
+Diferente das redes sociais tradicionais, OpenVoice coleta o mínimo de dados pessoais, não utiliza algoritmos para manipular o conteúdo que você vê e não exibe anúncios. 
 
-<ul>
-  <li>Apache Kafka</li>
-    <li>Laravel</li>
-    <li>reCAPTCHA</li>
-    <li>Vue.js</li>
-    <li>Web Socket</li>
-    <li>MySQL</li>
-    <li>ELK Stack</li>
-    <li>AWS S3</li>
-</ul>
+A missão desse projeto é oferecer uma plataforma que respeite a liberdade de expressão e colca o controle da privacidade nas mãos dos usuários.
 
-# Criadores
-<h3>Prova de Conceito (POC) por <a href="https://github.com/VerbalThree">Felipe Pereira</h3>
-<h3>Gustavo Marinho</h3>
-<h3>Maria Eduarda</h3>
-<h3>Gustavo S.</h3>
-<h3>Laryssa Torres</h3>
-<h3>Ismael</h3>
+# Créditos
+
+| Autor | Descrição |
+| :---: | :--- |
+| <img src="https://avatars.githubusercontent.com/u/81395037?v=4" width="100px"> | **Prova de Conceito (POC) por [Felipe Pereira](https://github.com/VerbalThree)** |
+| <img src="https://avatars.githubusercontent.com/u/169792459?v=4" width="100px"> | **[Gustavo Marinho](https://avatars.githubusercontent.com/u/169792459?v=4)** |
+| <img |
+
+
+
 
 # Licença
 <ul>
