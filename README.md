@@ -23,5 +23,5 @@ A missão desse projeto é oferecer uma plataforma que respeite a liberdade de e
 
 ## Licença
 
-[MIT License]("LICENSE")
+[MIT License](LICENSE)
 
