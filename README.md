@@ -14,6 +14,8 @@ A missão desse projeto é oferecer uma plataforma que respeite a liberdade de e
 
 Explore os princípios que fundamentam a criação dessa plataforma.
 
+**[Documentação em PDF](media/Documentação_OpenVoice.pdf)**
+
 ## Créditos
 
 | Autor | Descrição |
@@ -27,5 +29,5 @@ Explore os princípios que fundamentam a criação dessa plataforma.
 
 ## Licença
 
-[MIT License](LICENSE)
+**[MIT License](LICENSE)**
 
