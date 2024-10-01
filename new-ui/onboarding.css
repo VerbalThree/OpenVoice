@@ -311,3 +311,76 @@ a:hover {
     border-radius: 5px;
 
 }
+
+
+
+.bottom-line {
+    /*! width: 183%; */ margin-left: -175px; background: rgb(173, 173, 173); border: 1px solid rgb(173, 173, 173); margin-bottom: -50px;
+}
+/* Dispositivos Móveis */
+@media (max-width: 768px) {
+    /* Torna o container flexível */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Esconder a parte esquerda do site */
+    .left-side {
+        display: block;
+        width: 100%;
+    }
+
+    /* Esconder o lado direito */
+    .right-side {
+        display: none;
+    }
+
+    /* Estilo para o alerta */
+    #alert {
+        display: block; /* Mostra o alerta */
+        margin: 20px 0; /* Espaço ao redor do alerta */
+        text-align: center; /* Centraliza o texto */
+        left: 55%;
+    }
+
+    /* Estilo para o formulário */
+    .loginForm {
+        width: 90%; /* Largura do formulário */
+        max-width: 400px; /* Largura máxima do formulário */
+        margin: 157px auto;
+        text-align: center;
+        position: relative;
+        top: 75px;
+        left: 5%;
+    }
+
+    /* Esconder elementos desnecessários em dispositivos móveis */
+    .else-box {
+        display: block; /* Mantenha apenas as partes necessárias */
+        text-align: center; /* Centraliza o texto */
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        left: 28%;
+    }
+
+    /* Linha horizontal */
+    .form-line {
+        margin: 15px 0; /* Espaçamento para a linha */
+    }
+
+    /* Links importantes */
+    .links a {
+        display: inline-block; /* Mostra os links em linha */
+        margin: 5px 0; /* Espaçamento entre os links */
+    }
+    
+    .bottom-line {
+        
+    width: 103%;
+    left: 29%;
+    position: relative;
+    bottom: -35px;
+    }
+}

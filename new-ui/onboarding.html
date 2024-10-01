@@ -27,7 +27,7 @@
 
 
     <form action="" class="loginForm">
-        <h1 style="font-size: 30px; padding: 15px 15px 15px 15px;">OpenVoice</h1>
+        <h1 style="font-size: 30px; padding: 15px 15px 15px 15px;">Entre na sua conta</h1>
         
         <div class="input-container">
             <input type="text" id="username" class="text-input" autocomplete="off" placeholder="Enter your username" required>
@@ -53,8 +53,8 @@
 
     <!-- Important Links -->
     <div class="links">
-        <a href="" class="link">Sobre Nós</a>
-        <a href="" class="link">Documentação</a>
+        <a href="" class="link" download>Sobre Nós</a>
+        <a href="assets/Documentação_OpenVoice.pdf" class="link">Documentação</a>
     </div>
 </div>
 
@@ -98,21 +98,7 @@
             }
 
             // Bloco de alerta
-            const submitBtn = document.querySelector('.loginForm button[type="submit"]');
-            if (!submitBtn) {
-                throw new Error("Botão de envio não encontrado.");
-            }
-
-            submitBtn.addEventListener('click', function(event) {
-                event.preventDefault(); // Evita o envio do formulário
-
-                // Mostra o bloco de alerta
-                const alertBox = document.getElementById('alert');
-                if (!alertBox) {
-                    throw new Error("Bloco de alerta não encontrado.");
-                }
-                alertBox.style.display = 'block';
-            });
+            
 
         } // Window onload
 
