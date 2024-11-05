@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/logo.svg" width="860px">
+  <img src="misc/media/logo.svg" width="860px">
 </p>
 
 # OpenVoice
@@ -14,7 +14,7 @@ A missão desse projeto é oferecer uma plataforma que respeite a liberdade de e
 
 Explore os princípios que fundamentam a criação desta plataforma.
 
-**[Documentação em PDF](media/Documentação_OpenVoice.pdf)**
+**[Documentação em PDF](misc/media/Documentação_OpenVoice.pdf)**
 
 ## Créditos
 
@@ -22,10 +22,10 @@ Explore os princípios que fundamentam a criação desta plataforma.
 | :---: | :--- |
 | <img src="https://avatars.githubusercontent.com/u/81395037?v=4" width="100px"> | **Prova de Conceito (POC) por [Felipe Pereira](https://github.com/VerbalThree)** |
 | <img src="https://avatars.githubusercontent.com/u/169792459?v=4" width="100px"> | **[Gustavo Marinho](https://github.com/GusttaviCute)** |
-| <img src="media/user.png" width="100px"> | **Ismael Avelino** |
-| <img src="media/user.png" width="100px"> | **Laryssa Torres** |
-| <img src="media/user.png" width="100px"> | **Maria Eduarda** |
-| <img src="media/user.png" width="100px"> | **Gustavo Silva** |
+| <img src="misc/media/user.png" width="100px"> | **Ismael Avelino** |
+| <img src="misc/media/user.png" width="100px"> | **Laryssa Torres** |
+| <img src="misc/media/user.png" width="100px"> | **Maria Eduarda** |
+| <img src="misc/media/user.png" width="100px"> | **Gustavo Silva** |
 
 ## Licença
 
