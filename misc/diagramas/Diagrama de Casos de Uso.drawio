@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.4">
   <diagram name="Page-1" id="Ox3zL68_iwcasz6dOxy_">
-    <mxGraphModel dx="1153" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="2763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,6 +128,28 @@
             <mxPoint x="1500" y="1580" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GhDUsiYMYTLdvU3jQH11-55" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Seguir Outro Perfil&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="910" y="2090" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GhDUsiYMYTLdvU3jQH11-56" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeWidth=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GhDUsiYMYTLdvU3jQH11-55">
+          <mxGeometry x="0.0096" y="100" width="160" relative="1" as="geometry">
+            <mxPoint x="1069.52" y="1990" as="sourcePoint" />
+            <mxPoint x="1069.52" y="2050" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhDUsiYMYTLdvU3jQH11-57" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="2050" as="sourcePoint" />
+            <mxPoint x="1340" y="2300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="2050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhDUsiYMYTLdvU3jQH11-58" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;(Caso o Usuário já esteja seguindo outro Perfil)&lt;br&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2300" width="330" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
