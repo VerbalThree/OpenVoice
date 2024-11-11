@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.4">
   <diagram name="Page-1" id="RUOL-5rVlNPiTvtHbr-Q">
-    <mxGraphModel dx="1461" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1369" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,17 @@
         <mxCell id="dgugD9RGf2uUf7r9yJ4--19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Informar o estado do Login&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgugD9RGf2uUf7r9yJ4--18">
           <mxGeometry x="-0.1576" relative="1" as="geometry">
             <mxPoint x="39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgugD9RGf2uUf7r9yJ4--20" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;endFill=1;exitX=1;exitY=0.688;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.025;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dgugD9RGf2uUf7r9yJ4--2" target="dgugD9RGf2uUf7r9yJ4--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="390" as="sourcePoint" />
+            <mxPoint x="30" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgugD9RGf2uUf7r9yJ4--21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Visualizar Postagens&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgugD9RGf2uUf7r9yJ4--20">
+          <mxGeometry x="0.0517" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
