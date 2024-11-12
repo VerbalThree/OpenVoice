@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.4">
   <diagram name="Page-1" id="RUOL-5rVlNPiTvtHbr-Q">
-    <mxGraphModel dx="1433" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1725" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,6 +274,83 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TtyLyU8F_MTrgTWCTDSw-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Abrir Perfil de Outro Usuário &lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-5">
+          <mxGeometry x="-0.0323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-7" value="&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129.62" y="1440" as="sourcePoint" />
+            <mxPoint x="460.00461538461536" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Consulta ao Banco de Dados&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-7">
+          <mxGeometry x="-0.0323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-9" value="&amp;nbsp;" style="endArrow=none;html=1;rounded=0;strokeWidth=5;endFill=0;startArrow=classic;startFill=1;exitX=0.957;exitY=0.705;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TtyLyU8F_MTrgTWCTDSw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1400" as="sourcePoint" />
+            <mxPoint x="460" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Fornecimento dos Dados&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-9">
+          <mxGeometry x="-0.1576" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-11" value="&amp;nbsp;" style="endArrow=none;html=1;rounded=0;strokeWidth=5;endFill=0;startArrow=classic;startFill=1;exitX=0.957;exitY=0.705;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="1400" as="sourcePoint" />
+            <mxPoint x="-77" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Renderizar a Página do Perfil&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-11">
+          <mxGeometry x="-0.1576" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-14" value="&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;startArrow=none;startFill=0;endFill=1;entryX=0.069;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TtyLyU8F_MTrgTWCTDSw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="1280.02" as="sourcePoint" />
+            <mxPoint x="-80" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Seguir Outro Perfil&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-14">
+          <mxGeometry x="-0.0323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-16" value="&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;startArrow=none;startFill=0;endFill=1;entryX=-0.009;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TtyLyU8F_MTrgTWCTDSw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="1280" as="sourcePoint" />
+            <mxPoint x="460" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Armazenar Dados&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-16">
+          <mxGeometry x="-0.0323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-21" value="&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;startArrow=none;startFill=0;endFill=1;entryX=0.221;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TtyLyU8F_MTrgTWCTDSw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="1240" as="sourcePoint" />
+            <mxPoint x="-49.61538461538464" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Deixar de Seguir Outro Perfil&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-21">
+          <mxGeometry x="-0.0323" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-23" value="&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;startArrow=none;startFill=0;endFill=1;entryX=0.221;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111" y="1240" as="sourcePoint" />
+            <mxPoint x="460" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtyLyU8F_MTrgTWCTDSw-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Remover Seguidor&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="TtyLyU8F_MTrgTWCTDSw-23">
           <mxGeometry x="-0.0323" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
