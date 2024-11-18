@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="652" dy="1447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="704" dy="1474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,7 +498,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-14" value="Recebe os Dados" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-14" value="Receber e Enviar&lt;div&gt;Dados do Perfil&lt;/div&gt;&lt;div&gt;Desejado&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="995" y="1149.9957142857143" as="sourcePoint" />
             <mxPoint x="875" y="1149.9957142857143" as="targetPoint" />
@@ -508,7 +508,7 @@
         <mxCell id="dKMNJ_XkyidfndqTgt69-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
           <mxGeometry x="995" y="1110" width="10" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-16" value="Requisição" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-16" value="Solicitar Dados do&lt;div&gt;Perfil Desejado&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="875" y="1110" as="sourcePoint" />
             <mxPoint x="995" y="1110" as="targetPoint" />
@@ -517,7 +517,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-17" value="Retorna os Dados" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-17" value="Retornar os Dados do&lt;div&gt;Perfil&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1005" y="1149.997142857143" as="targetPoint" />
             <mxPoint x="1130" y="1149.997142857143" as="sourcePoint" />
@@ -526,7 +526,7 @@
         <mxCell id="dKMNJ_XkyidfndqTgt69-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1120" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-19" value="Consultar os Dados&lt;div&gt;do Perfil&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-19" value="Buscar Dados e&lt;div&gt;Postagens do Perfil&lt;/div&gt;&lt;div&gt;Desejado&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1004" y="1120" as="sourcePoint" />
             <mxPoint x="1129" y="1120" as="targetPoint" />
@@ -535,7 +535,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-20" value="Exibe o Perfil" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-20" value="Exibir o Perfil&lt;div&gt;Desejado&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="865" y="1149.93" as="sourcePoint" />
             <mxPoint x="745" y="1149.93" as="targetPoint" />
@@ -551,7 +551,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-22" value="Solicitação para&lt;div&gt;Visualizar as&amp;nbsp;&lt;/div&gt;&lt;div&gt;Próprias Postagens&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" vertex="1" connectable="0" parent="dKMNJ_XkyidfndqTgt69-21">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-22" value="Seguir Perfil&lt;div&gt;Desejado&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" vertex="1" connectable="0" parent="dKMNJ_XkyidfndqTgt69-21">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -565,7 +565,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-24" value="Consultar as&lt;div&gt;Postagens&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" vertex="1" connectable="0" parent="dKMNJ_XkyidfndqTgt69-23">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-24" value="Adicionar Usuário à&lt;div&gt;lista de seguidores&lt;/div&gt;&lt;div&gt;do Perfil Desejado&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" vertex="1" connectable="0" parent="dKMNJ_XkyidfndqTgt69-23">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -579,25 +579,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-26" value="Obter as Postagens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" vertex="1" connectable="0" parent="dKMNJ_XkyidfndqTgt69-25">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-26" value="Atualizar Lista de&lt;div&gt;Seguidores&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" vertex="1" connectable="0" parent="dKMNJ_XkyidfndqTgt69-25">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-27" value="Retorna as&lt;div&gt;Postagens&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-27" value="Confirmar Atualização" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1005" y="1219.6571428571428" as="targetPoint" />
             <mxPoint x="1130" y="1219.6571428571428" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-28" value="Recebe&amp;nbsp; as&lt;div&gt;Postagens&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-28" value="Receber Confirmação" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="995" y="1219.655714285714" as="sourcePoint" />
             <mxPoint x="875" y="1219.655714285714" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dKMNJ_XkyidfndqTgt69-29" value="Exibe as&lt;div&gt;Postagens&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="dKMNJ_XkyidfndqTgt69-29" value="Notificar o Usuário&lt;div&gt;que está Seguindo&lt;/div&gt;&lt;div&gt;o Perfil Desejado&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="865" y="1219.6599999999999" as="sourcePoint" />
             <mxPoint x="745" y="1219.6599999999999" as="targetPoint" />
