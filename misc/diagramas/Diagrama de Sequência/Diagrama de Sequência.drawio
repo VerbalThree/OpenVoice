@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="838" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="533" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,7 +331,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-30" value="&lt;div&gt;Inserir&lt;/div&gt;&lt;div&gt;Credenciais&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="yEwb-wUfJ6K_Wa4CBT-_-29">
+        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-30" value="Solicitação para&lt;div&gt;Visualizar as&amp;nbsp;&lt;/div&gt;&lt;div&gt;Próprias Postagens&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="yEwb-wUfJ6K_Wa4CBT-_-29">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -345,7 +345,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-32" value="&lt;div&gt;Validar&lt;/div&gt;&lt;div&gt;Credenciais&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="yEwb-wUfJ6K_Wa4CBT-_-31">
+        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-32" value="Requisição HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="yEwb-wUfJ6K_Wa4CBT-_-31">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -359,25 +359,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-34" value="&lt;div&gt;Consultar&lt;/div&gt;&lt;div&gt;Usuário&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="yEwb-wUfJ6K_Wa4CBT-_-33">
+        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-34" value="Consulta aos Dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;" vertex="1" connectable="0" parent="yEwb-wUfJ6K_Wa4CBT-_-33">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-35" value="&lt;div&gt;Resposta da&lt;/div&gt;&lt;div&gt;Consulta&lt;br&gt;&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-35" value="Retorna as&lt;div&gt;Postagens&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="695" y="649.6571428571428" as="targetPoint" />
             <mxPoint x="820" y="649.6571428571428" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-36" value="&lt;div&gt;Resultado do&lt;/div&gt;&lt;div&gt;Login&lt;br&gt;&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-36" value="Recebe os Dados" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="685" y="649.6557142857142" as="sourcePoint" />
             <mxPoint x="565" y="649.6557142857142" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-37" value="&lt;div&gt;Confirmação de&lt;/div&gt;&lt;div&gt;Login&lt;br&gt;&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
+        <mxCell id="yEwb-wUfJ6K_Wa4CBT-_-37" value="Exibe as&lt;div&gt;Postagens&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="555" y="649.66" as="sourcePoint" />
             <mxPoint x="435" y="649.66" as="targetPoint" />
