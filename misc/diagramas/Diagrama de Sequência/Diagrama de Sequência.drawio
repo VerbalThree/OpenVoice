@@ -101,10 +101,10 @@
           <mxGeometry x="1118" y="1640" width="100" height="150" as="geometry" />
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#cce5ff;strokeColor=#36393d;container=0;" parent="1" vertex="1">
-          <mxGeometry x="750" y="1790" width="10" height="280" as="geometry" />
+          <mxGeometry x="750" y="1790" width="10" height="300" as="geometry" />
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#cce5ff;strokeColor=#36393d;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1033" y="1800" width="10" height="270" as="geometry" />
+          <mxGeometry x="1033" y="1800" width="10" height="290" as="geometry" />
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-52" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="dKMNJ_XkyidfndqTgt69-51" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#cce5ff;strokeColor=#36393d;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="1810" width="10" height="260" as="geometry" />
+          <mxGeometry x="1241" y="1810" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-56" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Obter Postagens&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#d6d6d6;" parent="1" edge="1">
           <mxGeometry x="-0.0152" y="10" width="50" height="50" relative="1" as="geometry">
@@ -148,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#cce5ff;strokeColor=#36393d;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1450" y="1820" width="10" height="250" as="geometry" />
+          <mxGeometry x="1450" y="1820" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-59" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Consultar as Postagens&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#d6d6d6;" parent="1" edge="1" target="dKMNJ_XkyidfndqTgt69-58">
           <mxGeometry x="0.0588" y="11" width="50" height="50" relative="1" as="geometry">
@@ -242,10 +242,10 @@
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-73" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="2010" as="sourcePoint" />
-            <mxPoint x="1030" y="2010" as="targetPoint" />
+            <mxPoint x="760" y="2000" as="sourcePoint" />
+            <mxPoint x="1030" y="2000" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="820" y="2010" />
+              <mxPoint x="820" y="2000" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -257,7 +257,7 @@
         <mxCell id="dKMNJ_XkyidfndqTgt69-75" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1043" y="2011" as="sourcePoint" />
-            <mxPoint x="1163" y="2011" as="targetPoint" />
+            <mxPoint x="1240" y="2010" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1103" y="2011" />
             </Array>
@@ -265,15 +265,15 @@
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-76" value="Envia os Dados da Postagem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#d6d6d6;container=0;" parent="dKMNJ_XkyidfndqTgt69-75" vertex="1" connectable="0">
           <mxGeometry x="-0.1213" relative="1" as="geometry">
-            <mxPoint x="23" y="-10" as="offset" />
+            <mxPoint x="16" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-77" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1251" y="2010" as="sourcePoint" />
-            <mxPoint x="1450" y="2010" as="targetPoint" />
+            <mxPoint x="1251" y="2020" as="sourcePoint" />
+            <mxPoint x="1450" y="2020" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1311" y="2010" />
+              <mxPoint x="1311" y="2020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -284,22 +284,22 @@
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-79" value="Confirma a Ação" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" parent="1" edge="1">
           <mxGeometry x="-0.0962" y="-10" relative="1" as="geometry">
-            <mxPoint x="1251" y="2029.997142857143" as="targetPoint" />
-            <mxPoint x="1450" y="2030.1111111111109" as="sourcePoint" />
+            <mxPoint x="1251" y="2049.997142857143" as="targetPoint" />
+            <mxPoint x="1450" y="2050.111111111111" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-80" value="Recebe a Confirmação" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" parent="1" edge="1">
           <mxGeometry x="-0.1164" y="-10" relative="1" as="geometry">
-            <mxPoint x="1163" y="2050.9957142857143" as="sourcePoint" />
-            <mxPoint x="1043" y="2050.9957142857143" as="targetPoint" />
+            <mxPoint x="1240" y="2060" as="sourcePoint" />
+            <mxPoint x="1043" y="2059.9957142857143" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dKMNJ_XkyidfndqTgt69-81" value="Atualiza a Interface do Usuário" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;labelBackgroundColor=#d6d6d6;" parent="1" edge="1">
-          <mxGeometry x="-0.4983" y="-10" relative="1" as="geometry">
-            <mxPoint x="880" y="2040" as="sourcePoint" />
-            <mxPoint x="760" y="2040" as="targetPoint" />
+          <mxGeometry x="0.1199" y="-10" relative="1" as="geometry">
+            <mxPoint x="1033" y="2069.758095238095" as="sourcePoint" />
+            <mxPoint x="760" y="2069.52" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
