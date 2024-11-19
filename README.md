@@ -5,6 +5,7 @@
 <div align="center">
   <a href="LICENSE"><img alt="Static Badge" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-blue"></a>
   <a href="misc/media/Documentação_OpenVoice.pdf"><img alt="Static Badge" src="https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-yellow"></a>
+  <img alt="Static Badge" src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-c6c6c6">
 </div>
 
 # OpenVoice
@@ -21,8 +22,18 @@ Explore os princípios que fundamentam a criação desta plataforma.
 
 **[Documentação em PDF](misc/media/Documentação_OpenVoice.pdf)**
 
-## Construido com
-## Créditos
+## Tecnologias Utilizadas
+
+O OpenVoice foi criado utilizando as seguintes tecnologias:
+
+- **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) & [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Para a estruturação, estilização, design responsivo e interatividade com funcionalidades dinâmicas.
+- **[Vue.js](https://vuejs.org/)**: Framework progressivo para construção de interfaces de usuário.
+- **[Vue Router](https://router.vuejs.org/)**: Gerenciamento de rotas para navegação no front-end, possibilitando que o projeto seja uma [Single-page Application](https://developer.mozilla.org/en-US/docs/Glossary/SPA).
+- **[Vue I18n](https://vue-i18n.intlify.dev/)**: Para suporte a internacionalização e tradução.
+- **[Laravel](https://laravel.com/)**
+## Versão
+
+## Autores
 
 | Autor | Descrição |
 | :---: | :--- |
@@ -35,5 +46,5 @@ Explore os princípios que fundamentam a criação desta plataforma.
 
 ## Licença
 
-**[MIT License](LICENSE)**
+O OpenVoice é licenciado sob a **[Licença MIT](LICENSE)**
 
