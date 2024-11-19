@@ -2,6 +2,11 @@
   <img src="misc/media/logo.svg" width="860px">
 </p>
 
+<div align="center">
+  <a href="LICENSE"><img alt="Static Badge" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-blue"></a>
+  <a href="misc/media/Documentação_OpenVoice.pdf"><img alt="Static Badge" src="https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-yellow"></a>
+</div>
+
 # OpenVoice
 
 O OpenVoice é uma rede social desenvolvida com o foco em priorizar a segurança dos dados e a privacidade dos usuários. 
@@ -16,6 +21,7 @@ Explore os princípios que fundamentam a criação desta plataforma.
 
 **[Documentação em PDF](misc/media/Documentação_OpenVoice.pdf)**
 
+## Construido com
 ## Créditos
 
 | Autor | Descrição |
