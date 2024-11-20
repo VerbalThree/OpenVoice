@@ -38,7 +38,7 @@ O OpenVoice foi criado utilizando as seguintes tecnologias:
 ## Versão
 
 <div class="versão">
-Atualmente, o OpenVoice está na versão ``1.0.0``
+Atualmente, o OpenVoice está na versão <code>1.0.0</code>.
 </div>
 
 ## Autores
