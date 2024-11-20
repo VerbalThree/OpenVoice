@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
   <diagram name="Page-1" id="MwbWOQFWT070-M7AwfOy">
-    <mxGraphModel dx="2380" dy="1127" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1727" dy="1363" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="82" y="1048" width="846" height="481" as="geometry" />
         </mxCell>
         <mxCell id="yjfUnGBOWLVjIpAViWCM-14" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Plataforma em Nuvem&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="572" y="1075" width="337" height="32" as="geometry" />
+          <mxGeometry x="567" y="1072" width="351" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yjfUnGBOWLVjIpAViWCM-25" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="114" y="1203.5" width="196" height="212" as="geometry" />
@@ -125,8 +125,8 @@
         <mxCell id="DGc1nCTasb6ujO8rNWmP-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Diagrama de Arquitetura&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="312" y="367" width="386" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DGc1nCTasb6ujO8rNWmP-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;OpenVoice&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="415" y="1538" width="180" height="50" as="geometry" />
+        <mxCell id="DGc1nCTasb6ujO8rNWmP-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;OpenVoice&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt; - 1.0.0&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="363.5" y="1548" width="283" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
