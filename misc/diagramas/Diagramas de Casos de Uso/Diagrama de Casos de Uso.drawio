@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
   <diagram name="Page-1" id="Ox3zL68_iwcasz6dOxy_">
-    <mxGraphModel dx="3147" dy="1630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3147" dy="1510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,8 +287,8 @@
         <mxCell id="GhDUsiYMYTLdvU3jQH11-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;lt;&amp;lt;process&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
           <mxGeometry x="1205" y="380" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GhDUsiYMYTLdvU3jQH11-98" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Diagrama de Casos de Uso - &lt;b&gt;Login &amp;amp; Registro&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
-          <mxGeometry x="930" y="280" width="700" height="50" as="geometry" />
+        <mxCell id="GhDUsiYMYTLdvU3jQH11-98" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Diagrama de Casos de Uso - &lt;b&gt;Registro &amp;amp; Login&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
+          <mxGeometry x="927" y="277" width="696" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GhDUsiYMYTLdvU3jQH11-153" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;OpenVoice &lt;/b&gt;- 1.0.0&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
           <mxGeometry x="1130" y="880" width="290" height="50" as="geometry" />
