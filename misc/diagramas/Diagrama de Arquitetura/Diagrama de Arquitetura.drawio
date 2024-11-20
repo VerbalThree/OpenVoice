@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
   <diagram name="Page-1" id="MwbWOQFWT070-M7AwfOy">
-    <mxGraphModel dx="1727" dy="1363" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1751" dy="1002" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
           <mxGeometry x="83.15" y="60" width="153.71" height="131" as="geometry" />
         </mxCell>
         <mxCell id="O9dtRqOgn0nzCvG5pXRX-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Web - Desktop&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="yjfUnGBOWLVjIpAViWCM-7" vertex="1">
-          <mxGeometry x="25.75" y="17" width="268.5" height="34" as="geometry" />
+          <mxGeometry x="25" y="17" width="268.5" height="34" as="geometry" />
         </mxCell>
         <mxCell id="O9dtRqOgn0nzCvG5pXRX-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;HTML, CSS, JS, Vue, Vue Router, Vue I18n &amp;amp; Bootstrap&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="yjfUnGBOWLVjIpAViWCM-7" vertex="1">
           <mxGeometry x="25" y="210" width="270" height="40" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry width="320" height="279" as="geometry" />
         </mxCell>
         <mxCell id="yjfUnGBOWLVjIpAViWCM-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Web - Smartphone&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="yjfUnGBOWLVjIpAViWCM-8" vertex="1">
-          <mxGeometry x="17.879999999999768" y="19.5" width="284.25" height="29" as="geometry" />
+          <mxGeometry x="11.940000000000001" y="18.5" width="296.13" height="29" as="geometry" />
         </mxCell>
         <mxCell id="yjfUnGBOWLVjIpAViWCM-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;HTML, CSS, JS, Vue, Vue Router, Vue I18n &amp;amp; Bootstrap&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="yjfUnGBOWLVjIpAViWCM-8" vertex="1">
           <mxGeometry x="25" y="210" width="270" height="40" as="geometry" />
