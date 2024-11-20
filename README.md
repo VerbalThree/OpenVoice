@@ -14,7 +14,7 @@ O OpenVoice é uma rede social desenvolvida com o foco em priorizar a segurança
 
 Diferente das redes sociais tradicionais, OpenVoice coleta o mínimo de dados pessoais, não utiliza algoritmos para manipular o conteúdo que você vê e não exibe anúncios. 
 
-A missão desse projeto é oferecer uma plataforma que respeite a liberdade de expressão e colca o controle da privacidade nas mãos dos usuários.
+A missão desse projeto é oferecer uma plataforma que respeite a liberdade de expressão e coloca o controle da privacidade nas mãos dos usuários.
 
 ## Documentação
 
