@@ -5,7 +5,7 @@
 <div align="center">
   <a href="LICENSE"><img alt="Static Badge" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-blue"></a>
   <a href="misc/media/Documentação_OpenVoice.pdf"><img alt="Static Badge" src="https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-yellow"></a>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-c6c6c6">
+  <a href="#versão"><img alt="Static Badge" src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-c6c6c6"></a>
 </div>
 
 # OpenVoice
@@ -27,11 +27,19 @@ Explore os princípios que fundamentam a criação desta plataforma.
 O OpenVoice foi criado utilizando as seguintes tecnologias:
 
 - **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) & [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Para a estruturação, estilização, design responsivo e interatividade com funcionalidades dinâmicas.
+- **[Bootstrap](https://getbootstrap.com/)**: Framework CSS para criação de layouts e componentes responsivos.
 - **[Vue.js](https://vuejs.org/)**: Framework progressivo para construção de interfaces de usuário.
 - **[Vue Router](https://router.vuejs.org/)**: Gerenciamento de rotas para navegação no front-end, possibilitando que o projeto seja uma [Single-page Application](https://developer.mozilla.org/en-US/docs/Glossary/SPA).
 - **[Vue I18n](https://vue-i18n.intlify.dev/)**: Para suporte a internacionalização e tradução.
-- **[Laravel](https://laravel.com/)**
+- **[Laravel](https://laravel.com/)**: Framework PHP para o desenvolvimento do Back-end.
+- **[WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)**: Para comunicação em tempo real entre o cliente e o servidor.
+- **[MySQL](https://www.mysql.com/)**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenamento de dados.
+  
 ## Versão
+
+<div class="versão">
+Atualmente, o OpenVoice está na versão ``1.0.0``
+</div>
 
 ## Autores
 
@@ -46,5 +54,4 @@ O OpenVoice foi criado utilizando as seguintes tecnologias:
 
 ## Licença
 
-O OpenVoice é licenciado sob a **[Licença MIT](LICENSE)**
-
+O OpenVoice é licenciado sob a **[Licença MIT](LICENSE)**.
