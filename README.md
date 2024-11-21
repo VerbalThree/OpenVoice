@@ -47,7 +47,7 @@ Atualmente, o OpenVoice está na versão <code>1.0.0</code>.
 | :---: | :--- |
 | <img src="https://avatars.githubusercontent.com/u/81395037?v=4" width="100px"> | **Prova de Conceito (POC) por [Felipe Pereira](https://github.com/VerbalThree)** |
 | <img src="https://avatars.githubusercontent.com/u/169792459?v=4" width="100px"> | **[Gustavo Marinho](https://github.com/GusttaviCute)** |
-| <img src="misc/media/user.png" width="100px"> | **Ismael Avelino** |
+| <img src="https://avatars.githubusercontent.com/u/168347227?v=4" width="100px"> | **[Ismael Avelino](https://github.com/MaelITK25)** |
 | <img src="misc/media/user.png" width="100px"> | **Laryssa Torres** |
 | <img src="misc/media/user.png" width="100px"> | **Maria Eduarda** |
 | <img src="misc/media/user.png" width="100px"> | **Gustavo Silva** |
