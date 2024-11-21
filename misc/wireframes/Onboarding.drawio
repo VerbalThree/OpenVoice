@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
   <diagram name="Page-1" id="aFCg7NFVabs5uoirMCVZ">
-    <mxGraphModel dx="315" dy="206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,6 +144,9 @@
         </mxCell>
         <mxCell id="ELETVQiaOp1bO45lzPS6-54" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1740" width="254" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ELETVQiaOp1bO45lzPS6-55" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot; style=&quot;font-size: 14px;&quot;&gt;Não tem uma conta? &lt;font color=&quot;#006dfc&quot;&gt;&lt;b&gt;Crie uma agora&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=5;strokeColor=#ADADAD;fillColor=#F7F7F7;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1850" width="288" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
