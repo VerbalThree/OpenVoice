@@ -41,7 +41,9 @@ O OpenVoice foi criado utilizando as seguintes diretrizes:
 
 - **[Privacy By Design](https://en.wikipedia.org/wiki/Privacy_by_design)**: Utilizado para criar o OpenVoice com foco em privacidade, um dos pilares desse projeto.
 - **[Lei Geral de Proteção de Dados](https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd)**: Adotada como base legal para garantir que o OpenVoice esteja em conformidade com os princípios de proteção e tratamento de dados pessoais.
-- **[ISO]()**:
+- **[ISO 27:001:2022 - Gestão da Segurança da Informação](https://www.estrategiaconcursos.com.br/blog/seguranca-informacao-iso-27001-2022/)**: Utilizada para garantir um sistema de segurança da informação [(SGSI)](https://advisera.com/27001academy/pt-br/blog/2016/05/30/o-que-e-um-sistema-de-gestao-de-seguranca-da-informacao-sgsi-de-acordo-com-a-iso-27001/), garantindo a confidencialidade, integridade e disponibilidade dos dados no OpenVoice.
+- **[ISO 27002:2022 - Requisitos para SGSI](https://www.estrategiaconcursos.com.br/blog/seguranca-informacao-iso-27002-2022/#)**: Aplicada como um guia de referência para a implementação de controles de segurança no OpenVoice.
+- **[ISO 29134:2023 - Diretrizes para a Condução de Avaliações de Impacto sobre a Proteção de Dados](https://www.target.com.br/produtos/normas-tecnicas/45465/nbriso-iec29134-tecnologia-da-informacao-tecnicas-de-seguranca-orientacoes-para-avaliacao-de-impacto-de-privacidade)**: Adotada para orientar a realização de avaliações de impacto de privacidade [(PIA)](https://pt.wikipedia.org/wiki/Avalia%C3%A7%C3%A3o_de_impacto_de_privacidade) no OpenVoice.
 ## Versão
 
 <div class="versão">
