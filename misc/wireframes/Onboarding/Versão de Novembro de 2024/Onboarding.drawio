@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
   <diagram name="Page-1" id="aFCg7NFVabs5uoirMCVZ">
-    <mxGraphModel dx="880" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="829" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,13 +13,13 @@
         <mxCell id="ELETVQiaOp1bO45lzPS6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
           <mxGeometry width="1920" height="1080" as="geometry" />
         </mxCell>
-        <mxCell id="ELETVQiaOp1bO45lzPS6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
+        <mxCell id="ELETVQiaOp1bO45lzPS6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;opacity=10;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
           <mxGeometry width="1920" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ELETVQiaOp1bO45lzPS6-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;OpenVoice&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
           <mxGeometry x="870" y="5" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ELETVQiaOp1bO45lzPS6-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
+        <mxCell id="ELETVQiaOp1bO45lzPS6-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;opacity=20;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
           <mxGeometry y="60" width="1920" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ELETVQiaOp1bO45lzPS6-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="ELETVQiaOp1bO45lzPS6-46" vertex="1">
@@ -183,6 +183,9 @@
         </mxCell>
         <mxCell id="lX9Z_91-leuQ4gwRPBAa-4" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lX9Z_91-leuQ4gwRPBAa-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#000000;labelBorderColor=none;labelBackgroundColor=none;fontColor=default;fillColor=#ADADAD;perimeterSpacing=0;gradientColor=none;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1560" width="360" height="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
