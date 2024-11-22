@@ -34,7 +34,14 @@ O OpenVoice foi criado utilizando as seguintes tecnologias:
 - **[Laravel](https://laravel.com/)**: Framework PHP para o desenvolvimento do Back-end.
 - **[WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)**: Para comunicação em tempo real entre o cliente e o servidor.
 - **[MySQL](https://www.mysql.com/)**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenamento de dados.
-  
+
+## Diretrizes
+
+O OpenVoice foi criado utilizando as seguintes diretrizes:
+
+- **[Privacy By Design](https://en.wikipedia.org/wiki/Privacy_by_design)**: Utilizado para criar o OpenVoice com foco em privacidade, um dos pilares desse projeto.
+- **[Lei Geral de Proteção de Dados](https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd)**: Adotada como base legal para garantir que o OpenVoice esteja em conformidade com os princípios de proteção e tratamento de dados pessoais.
+- **[ISO]()**:
 ## Versão
 
 <div class="versão">
