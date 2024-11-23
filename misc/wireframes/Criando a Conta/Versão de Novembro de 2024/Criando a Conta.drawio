@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="lj6RK-h0ijxpWspXj1mO">
-    <mxGraphModel dx="3453" dy="2840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1727" dy="1420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,6 +204,9 @@
         </mxCell>
         <mxCell id="EFTYfaXU1rDjT9yFgcd6-2" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;" vertex="1" parent="_-2xQAwJdrOx4KQ89vea-2">
           <mxGeometry x="836" y="676.5" width="254" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="EFTYfaXU1rDjT9yFgcd6-10" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Criando a Conta - 1920x1080 (1080p) - Desktop&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1500" width="890" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
