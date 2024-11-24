@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="iUUTFpx-V8uihU4ikNSK">
-    <mxGraphModel dx="1922" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1300" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -738,12 +738,6 @@
         </mxCell>
         <mxCell id="GMtnLUwgVppEUL6aewoB-174" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ui-essential-17/32/UI_Essential_Outline_1_essential-app-ui-avatar-profile-user-account-128.png;imageBackground=none;fillStyle=auto;imageBorder=none;container=0;" vertex="1" parent="GMtnLUwgVppEUL6aewoB-168">
           <mxGeometry x="15.093750000000002" y="13" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="GMtnLUwgVppEUL6aewoB-134" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1804" y="1311" as="sourcePoint" />
-            <mxPoint x="2154" y="1311" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
