@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="iUUTFpx-V8uihU4ikNSK">
-    <mxGraphModel dx="786" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="911" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,6 +447,21 @@
         </mxCell>
         <mxCell id="GMtnLUwgVppEUL6aewoB-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;opacity=20;" vertex="1" parent="GMtnLUwgVppEUL6aewoB-48">
           <mxGeometry x="14" y="72" width="333" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="GMtnLUwgVppEUL6aewoB-122" value="" style="group" vertex="1" connectable="0" parent="GMtnLUwgVppEUL6aewoB-48">
+          <mxGeometry x="59" y="600" width="250" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="GMtnLUwgVppEUL6aewoB-123" value="&lt;font&gt;&lt;span&gt;© 2024 OpenVoice por &lt;/span&gt;Felipe Pereira &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;" vertex="1" parent="GMtnLUwgVppEUL6aewoB-122">
+          <mxGeometry x="10" y="61" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMtnLUwgVppEUL6aewoB-124" value="Sobre o OpenVoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;fontColor=default;textOpacity=50;" vertex="1" parent="GMtnLUwgVppEUL6aewoB-122">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMtnLUwgVppEUL6aewoB-125" value="Documentação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;" vertex="1" parent="GMtnLUwgVppEUL6aewoB-122">
+          <mxGeometry x="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMtnLUwgVppEUL6aewoB-126" value="Repositório no GitHub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;" vertex="1" parent="GMtnLUwgVppEUL6aewoB-122">
+          <mxGeometry x="51" y="31" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GMtnLUwgVppEUL6aewoB-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="GMtnLUwgVppEUL6aewoB-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
