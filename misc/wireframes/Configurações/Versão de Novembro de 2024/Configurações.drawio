@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="mpPzsr76SdZVVROr64va">
-    <mxGraphModel dx="1427" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1571" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -417,6 +417,24 @@
         </mxCell>
         <mxCell id="tyvPP_jlpX7TCxLn47wf-237" value="&lt;font face=&quot;Inter&quot;&gt;Sair da conta&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-234">
           <mxGeometry x="25" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-238" value="&lt;font face=&quot;Inter&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Sua conta&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-32">
+          <mxGeometry x="31.75" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-239" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Inter&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Nome de Usuário&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-32">
+          <mxGeometry x="31.75" y="498" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-240" value="&lt;div align=&quot;left&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;meuperfil&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;align=left;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-32">
+          <mxGeometry x="31.75" y="527.9999999999998" width="254" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-241" value="&lt;font face=&quot;Inter&quot;&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-32">
+          <mxGeometry x="31.75" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-242" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;meuperfil@exemplo.com&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;align=left;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-32">
+          <mxGeometry x="31.75" y="589.9999999999998" width="254" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-243" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Inter&quot;&gt;&lt;b&gt;Salvar mudanças&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=19;strokeColor=none;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;fillColor=#000000;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-32">
+          <mxGeometry x="31.75" y="638" width="145" height="32" as="geometry" />
         </mxCell>
         <mxCell id="tyvPP_jlpX7TCxLn47wf-79" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-18" y="1420" width="408" height="860" as="geometry" />
