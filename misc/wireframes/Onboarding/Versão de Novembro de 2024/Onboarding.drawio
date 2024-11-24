@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="aFCg7NFVabs5uoirMCVZ">
-    <mxGraphModel dx="1018" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,30 +349,6 @@
         <mxCell id="NqORau-7zyAI_JyvSsWB-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;opacity=20;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-28">
           <mxGeometry x="14" y="72" width="333" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-38" value="" style="group" vertex="1" connectable="0" parent="NqORau-7zyAI_JyvSsWB-28">
-          <mxGeometry x="29.249999999999773" y="540" width="309.5" height="92" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-39" value="&lt;font&gt;&lt;span&gt;© 2024 OpenVoice por &lt;/span&gt;Felipe Pereira &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry x="69.5" y="61" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-40" value="Sobre o OpenVoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;fontColor=default;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry x="15" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-41" value="Documentação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry x="155" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-42" value="Repositório no GitHub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry x="66" y="31" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-43" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;fillColor=#F7F7F7;align=left;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry y="60" width="69.5" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-44" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.down;strokeColor=#000000;rotation=-180;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry x="49.5" y="73" width="12" height="6" as="geometry" />
-        </mxCell>
-        <mxCell id="NqORau-7zyAI_JyvSsWB-45" value="&lt;font face=&quot;Inter&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;PT-BR&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-38">
-          <mxGeometry x="4.75" y="61" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="NqORau-7zyAI_JyvSsWB-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NqORau-7zyAI_JyvSsWB-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="130" as="sourcePoint" />
@@ -432,6 +408,30 @@
         </mxCell>
         <mxCell id="NqORau-7zyAI_JyvSsWB-65" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot; style=&quot;font-size: 14px;&quot;&gt;Não tem uma conta? &lt;font color=&quot;#006dfc&quot;&gt;&lt;b&gt;Crie uma agora&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=5;strokeColor=#ADADAD;fillColor=#F7F7F7;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-28">
           <mxGeometry x="36" y="440" width="288" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-74" value="" style="group" vertex="1" connectable="0" parent="NqORau-7zyAI_JyvSsWB-28">
+          <mxGeometry x="25.249999999999773" y="540" width="309.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-67" value="&lt;font&gt;&lt;span&gt;© 2024 OpenVoice por &lt;/span&gt;Felipe Pereira &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry y="62" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-68" value="Sobre o OpenVoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;fontColor=default;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry x="25" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-69" value="Documentação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry x="165" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-70" value="Repositório no GitHub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry x="76" y="31" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-71" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;fillColor=#F7F7F7;align=left;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry x="240" y="61" width="69.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-72" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.down;strokeColor=#000000;rotation=-180;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry x="289.5" y="74" width="12" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="NqORau-7zyAI_JyvSsWB-73" value="&lt;font face=&quot;Inter&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;PT-BR&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="NqORau-7zyAI_JyvSsWB-74">
+          <mxGeometry x="244.75" y="62" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
