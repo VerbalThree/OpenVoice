@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="iUUTFpx-V8uihU4ikNSK">
-    <mxGraphModel dx="2163" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2883" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,7 +188,7 @@
           <mxGeometry x="675" y="653" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="N1uHtL7809SFE7FRt9Qo-73" value="" style="group" parent="N1uHtL7809SFE7FRt9Qo-1" vertex="1" connectable="0">
-          <mxGeometry x="620" y="950" width="630" height="30" as="geometry" />
+          <mxGeometry x="620" y="870" width="630" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N1uHtL7809SFE7FRt9Qo-74" value="Sobre o OpenVoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;fontColor=default;textOpacity=50;" parent="N1uHtL7809SFE7FRt9Qo-73" vertex="1">
           <mxGeometry x="240" width="130" height="30" as="geometry" />
@@ -203,7 +203,7 @@
           <mxGeometry width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-1" value="" style="group;aspect=fixed;" vertex="1" connectable="0" parent="N1uHtL7809SFE7FRt9Qo-1">
-          <mxGeometry x="850" y="300" width="160" height="160" as="geometry" />
+          <mxGeometry x="850" y="220" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-2" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;container=0;" vertex="1" parent="15OP36bwx9ZamjwL5-GF-1">
           <mxGeometry width="160" height="160" as="geometry" />
@@ -212,13 +212,13 @@
           <mxGeometry width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-11" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;@nomedousuario&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="N1uHtL7809SFE7FRt9Qo-1">
-          <mxGeometry x="815" y="480" width="230" height="40" as="geometry" />
+          <mxGeometry x="815" y="400" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-14" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot; face=&quot;Inter&quot;&gt;Seguir&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=19;strokeColor=none;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;fillColor=#000000;" vertex="1" parent="N1uHtL7809SFE7FRt9Qo-1">
-          <mxGeometry x="803" y="529.9999999999998" width="254" height="32" as="geometry" />
+          <mxGeometry x="803" y="449.9999999999998" width="254" height="32" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-15" value="" style="group" vertex="1" connectable="0" parent="N1uHtL7809SFE7FRt9Qo-1">
-          <mxGeometry x="820" y="580" width="220" height="30" as="geometry" />
+          <mxGeometry x="820" y="500" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-12" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;&lt;b&gt;0 Seguidores&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="15OP36bwx9ZamjwL5-GF-15">
           <mxGeometry width="120" height="30" as="geometry" />
@@ -227,7 +227,7 @@
           <mxGeometry x="120" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-23" value="" style="group" vertex="1" connectable="0" parent="N1uHtL7809SFE7FRt9Qo-1">
-          <mxGeometry x="770" y="630" width="320" height="120" as="geometry" />
+          <mxGeometry x="770" y="550" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-17" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=5;strokeColor=#ADADAD;fillColor=#d9d9d9;container=0;" vertex="1" parent="15OP36bwx9ZamjwL5-GF-23">
           <mxGeometry width="320" height="120" as="geometry" />
@@ -248,7 +248,7 @@
           <mxGeometry x="15" y="13" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-31" value="" style="group" vertex="1" connectable="0" parent="N1uHtL7809SFE7FRt9Qo-1">
-          <mxGeometry x="770" y="770" width="320" height="160" as="geometry" />
+          <mxGeometry x="770" y="690" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="15OP36bwx9ZamjwL5-GF-25" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=5;strokeColor=#ADADAD;fillColor=#d9d9d9;container=0;" vertex="1" parent="15OP36bwx9ZamjwL5-GF-31">
           <mxGeometry width="320" height="160" as="geometry" />
