@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.9">
   <diagram name="Page-1" id="mpPzsr76SdZVVROr64va">
-    <mxGraphModel dx="1868" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3013" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,8 +115,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9sjehPISlaU6Yh0B2FF-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;https:&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;//&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;openvoice.com&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;/&lt;font face=&quot;Helvetica&quot;&gt;configurações&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e9sjehPISlaU6Yh0B2FF-2" vertex="1">
-          <mxGeometry x="204.14" y="75" width="310" height="30" as="geometry" />
+        <mxCell id="e9sjehPISlaU6Yh0B2FF-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;https:&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;//&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;openvoice.com&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;/&lt;font face=&quot;Helvetica&quot;&gt;configurações&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;/conta&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e9sjehPISlaU6Yh0B2FF-2" vertex="1">
+          <mxGeometry x="204.14" y="75" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9sjehPISlaU6Yh0B2FF-27" value="" style="shape=image;editableCssRules=.*;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0wLjUgLTAuNSAyMi40MSAyOCIgaGVpZ2h0PSIyOCIgd2lkdGg9IjIyLjQxIj4mI3hhOwkgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnN0MCB7IHN0b3AtY29sb3I6IHJnYigwLCAwLCAwKTsgfSAuc3QxIHsgc3RvcC1jb2xvcjogcmdiKDAsIDAsIDApOyB9IDwvc3R5bGU+JiN4YTsJPGRlZnM+JiN4YTsJCTxsaW5lYXJHcmFkaWVudCBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeTI9IjIwLjU5OCIgeDI9IjIyLjUxNiIgeTE9IjMuNDc0IiB4MT0iMS41MzIiIGlkPSJBIj4mI3hhOwkJCTxzdG9wIGNsYXNzPSJzdDAiLz4mI3hhOwkJCTxzdG9wIGNsYXNzPSJzdDEiIG9mZnNldD0iMSIvPiYjeGE7CQk8L2xpbmVhckdyYWRpZW50PiYjeGE7CTwvZGVmcz4mI3hhOwk8cGF0aCBmaWxsPSJ1cmwoI0EpIiBkPSJNMTcuNjkxIDEwLjY3OGMxLjIwNiAwIDIuMjA5LjQyMSAzLjAxNCAxLjI2MS44MDMuODAzIDEuMjA1IDEuNzg4IDEuMjA1IDIuOTZ2OC4zODFjMCAxLjIwNi0uNDAxIDIuMjExLTEuMjA1IDMuMDE2UzE4Ljg5OCAyNy41IDE3LjY5MSAyNy41SDMuNzE5Yy0xLjIwNSAwLTIuMjA5LS40MDMtMy4wMTItMS4yMDZTLS41IDI0LjQ4OC0uNSAyMy4yODF2LTguMzgzYzAtMS4xNjkuNDAzLTIuMTU3IDEuMjA2LTIuOTYuODAzLS44NDIgMS44MDYtMS4yNjEgMy4wMTItMS4yNjFWNi41MTRjMC0uOTg1LjE4Mi0xLjg5OS41NDktMi43MzkuMzY1LS44NzcuODU5LTEuNjI1IDEuNDc4LTIuMjQ2UzcuMDk3LjQxNCA3LjkzNy4wNDkgOS42OTEtLjUgMTAuNjc4LS41czEuODk5LjE4MiAyLjc0MS41NDljLjg3Ny4zNjUgMS42MjUuODU5IDIuMjQ0IDEuNDhzMS4xMTUgMS4zNjggMS40ODIgMi4yNDRjLjM2NS44NDIuNTQ3IDEuNzUzLjU0NyAyLjc0MXptLTExLjE3OCAwaDguMzgzVjYuNTE0YzAtMS4yMDUtLjQwMi0yLjIwOS0xLjIwNS0zLjAxMnMtMS44MDgtMS4yMDgtMy4wMTQtMS4yMDhjLTEuMTY5IDAtMi4xNTcuNDAzLTIuOTYgMS4yMDZTNi41MTQgNS4zMDUgNi41MTQgNi41MTJ6bTEyLjYwMyA0LjIyYTEuMjUgMS4yNSAwIDAgMC0uNDM4LS45ODdjLS4xMy0uMTI4LS4yODQtLjIyOC0uNDU0LS4yOTRzLS4zNTEtLjA5Ny0uNTMzLS4wOUgzLjcxOWMtLjk0OSAwLTEuNDI0LjQ1Ni0xLjQyNCAxLjM3MXY4LjM4MWMwIC45NS40NzMgMS40MjUgMS40MjQgMS40MjVoMTMuOTczYy40MDMgMCAuNzMxLS4xMjguOTg3LS4zODIuMjkxLS4yNTYuNDM4LS42MDMuNDM4LTEuMDQxem0tOC40MzkgMS40MjJjLjgwMyAwIDEuNDYxLjI3NCAxLjk3My44MjIuNTQ5LjUxLjgyMiAxLjE2OC44MjIgMS45NzNhMi42OSAyLjY5IDAgMCAxLS44MjIgMS45NzNjLS41MTIuNTQ3LTEuMTY5LjgyMi0xLjk3My44MjItLjc2OCAwLTEuNDI1LS4yNzUtMS45NzMtLjgyNGEyLjY5IDIuNjkgMCAwIDEtLjgyMi0xLjk3MWMwLS44MDUuMjc1LTEuNDYyLjgyMi0xLjk3M2EyLjY5IDIuNjkgMCAwIDEgMS45NzMtLjgyMnoiLz4mI3hhOzwvc3ZnPg==;imageBackground=none;" parent="e9sjehPISlaU6Yh0B2FF-2" vertex="1">
           <mxGeometry x="190" y="81" width="14.14" height="18" as="geometry" />
@@ -190,21 +190,6 @@
         <mxCell id="e9sjehPISlaU6Yh0B2FF-48" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;container=0;" parent="e9sjehPISlaU6Yh0B2FF-2" vertex="1">
           <mxGeometry x="675" y="653" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e9sjehPISlaU6Yh0B2FF-49" value="" style="group" parent="e9sjehPISlaU6Yh0B2FF-2" vertex="1" connectable="0">
-          <mxGeometry x="620" y="870" width="630" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="e9sjehPISlaU6Yh0B2FF-50" value="Sobre o OpenVoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;fontColor=default;textOpacity=50;" parent="e9sjehPISlaU6Yh0B2FF-49" vertex="1">
-          <mxGeometry x="240" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="e9sjehPISlaU6Yh0B2FF-51" value="Documentação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;" parent="e9sjehPISlaU6Yh0B2FF-49" vertex="1">
-          <mxGeometry x="370" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="e9sjehPISlaU6Yh0B2FF-52" value="Repositório no GitHub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;" parent="e9sjehPISlaU6Yh0B2FF-49" vertex="1">
-          <mxGeometry x="480" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="e9sjehPISlaU6Yh0B2FF-53" value="&lt;font&gt;&lt;span&gt;© 2024 OpenVoice por &lt;/span&gt;Felipe Pereira &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;" parent="e9sjehPISlaU6Yh0B2FF-49" vertex="1">
-          <mxGeometry width="240" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="tyvPP_jlpX7TCxLn47wf-12" value="" style="group" vertex="1" connectable="0" parent="e9sjehPISlaU6Yh0B2FF-2">
           <mxGeometry x="540" y="220" width="254" height="32" as="geometry" />
         </mxCell>
@@ -249,6 +234,24 @@
         </mxCell>
         <mxCell id="tyvPP_jlpX7TCxLn47wf-24" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;meuperfil@exemplo.com&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=21;strokeColor=#ADADAD;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;align=left;" vertex="1" parent="e9sjehPISlaU6Yh0B2FF-2">
           <mxGeometry x="835" y="361.9999999999998" width="254" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-25" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Inter&quot;&gt;&lt;b&gt;Salvar mudanças&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;arcSize=19;strokeColor=none;height=32;spacingTop=5;spacingRight=12;spacingBottom=5;spacingLeft=12;spacing=0;fontSize=14;fillColor=#000000;" vertex="1" parent="e9sjehPISlaU6Yh0B2FF-2">
+          <mxGeometry x="835" y="410" width="145" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-26" value="" style="group" vertex="1" connectable="0" parent="e9sjehPISlaU6Yh0B2FF-2">
+          <mxGeometry x="620" y="470" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-27" value="Sobre o OpenVoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;fontColor=default;textOpacity=50;container=0;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-26">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-28" value="Documentação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-26">
+          <mxGeometry x="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-29" value="Repositório no GitHub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-26">
+          <mxGeometry x="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyvPP_jlpX7TCxLn47wf-30" value="&lt;font&gt;&lt;span&gt;© 2024 OpenVoice por &lt;/span&gt;Felipe Pereira &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;textOpacity=50;container=0;" vertex="1" parent="tyvPP_jlpX7TCxLn47wf-26">
+          <mxGeometry x="390" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tyvPP_jlpX7TCxLn47wf-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/user-interface-169/32/about-128.png" vertex="1" parent="1">
           <mxGeometry x="425" y="1630" width="128" height="128" as="geometry" />
