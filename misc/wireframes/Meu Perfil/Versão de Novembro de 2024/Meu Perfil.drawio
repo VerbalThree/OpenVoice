@@ -297,6 +297,9 @@
         <mxCell id="N1uHtL7809SFE7FRt9Qo-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ui-essential-17/32/UI_Essential_Outline_1_essential-app-ui-avatar-profile-user-account-128.png;imageBackground=none;fillStyle=auto;imageBorder=none;container=0;" parent="N1uHtL7809SFE7FRt9Qo-53" vertex="1">
           <mxGeometry x="15" y="13" width="48" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="15OP36bwx9ZamjwL5-GF-34" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Meu Perfil - 360x800 - Smartphone&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1440" width="650" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
