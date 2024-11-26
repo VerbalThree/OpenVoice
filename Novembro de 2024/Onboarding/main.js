@@ -110,3 +110,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
    });
 });
+
+// Variavéis para mostrar a Senha
+const passwordInput = document.getElementById('password');
+const TOGGLE_PASSWORD_BUTTON = document.getElementById('toggle-password');
+
+TOGGLE_PASSWORD_BUTTON.addEventListener('click', TOGGLE_PASSWORD);
+
+function TOGGLE_PASSWORD() {
+    if (passwordInput.type === 'password'){
+        passwordInput.type = 'text';
+        TOGGLE_PASSWORD_BUTTON.innerHTML = '<i class="fa-solid fa-eye-slash"></i>';
+    } else {
+        passwordInput.type = 'password';
+        TOGGLE_PASSWORD_BUTTON.innerHTML = '<i class="fa-solid fa-eye"></i>';
+    }
+}
