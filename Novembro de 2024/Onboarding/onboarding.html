@@ -20,13 +20,19 @@
     <!-- Formulário de Login -->
     <div class="loginForm">
         <form method="POST">
-            <label for="username" id="title" class="label">Nome de Usuário ou Email</label>
+            <label for="username" id="username-label" class="label">Nome de Usuário ou Email</label>
             <input type="text" id="username" class="text-input" autocomplete="off" name="username" required>
-            <span id="name-validation" aria-live="assertive" class="validation-message"></span>
+            <label for="password" id="password-label" class="label">Senha</label>
+            <input type="password" id="password" class="text-input" autocomplete="off" name="password" required>
+            <button type="button" hidden data-pressed="false" class="reveal-password" controls="password" data-text-show
             <button type="submit">Entrar</button>
         </form>
      </div>
   
+
+     <i class="fa-solid fa-eye"></i>
+     <i class="fa-solid fa-eye-slash"></i>
+
      <select id="language-selector">
          <option value="en">English</option>
          <option value="pt">Português</option>
@@ -40,14 +46,17 @@
          
          // Definir traduções
          const translations = {
-             "en": {
-                 title: "Username or Email",
-                },
-                "pt": {
-                title: "Nome de Usuário ou Email",
+            "en": {
+                USERNAME_LABEL: "Username or Email",
+                PASSWORD_LABEL: "Password",
+            },
+            "pt": {
+                USERNAME_LABEL: "Nome de Usuário ou Email",
+                PASSWORD_LABEL: "Senha",
             },
             "es": {
-                title: "Nombre de Usuario o Correo Eletrónico",
+                USERNAME_LABEL: "Nombre de Usuario o Correo Eletrónico",
+                PASSWORD_LABEL: "Contraseña",
             },
         };
 
@@ -61,7 +70,8 @@
             const translation = translations[language] || translations['en'];
             
             // Alterar o conteúdo
-            document.getElementById('title').innerText = translation.title;
+            document.getElementById('username-label').innerText = translation.USERNAME_LABEL;
+            document.getElementById('password-label').innerText = translation.PASSWORD_LABEL;
             
             // Atualizar o atributo Lang da página
             document.documentElement.lang = locale;
@@ -125,11 +135,6 @@
 
             });
         });
-
-
-        // reCAPTCHA
-        
-
     </script>
 </body>
 </html>
