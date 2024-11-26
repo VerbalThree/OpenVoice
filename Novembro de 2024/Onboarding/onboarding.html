@@ -12,8 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
-    <link rel="alternate" title="Login Form">
-    
 </head>
 <body>
     
@@ -24,7 +22,7 @@
             <input type="text" id="username" class="text-input" autocomplete="off" name="username" required>
             <label for="password" id="password-label" class="label">Senha</label>
             <input type="password" id="password" class="text-input" autocomplete="off" name="password" required>
-            <button type="button" hidden data-pressed="false" class="reveal-password" controls="password" data-text-show
+          
             <button type="submit">Entrar</button>
         </form>
      </div>
@@ -90,22 +88,33 @@
 
         
         // Mensagem de validação em diferentes idiomas
-        const validationMessages = {
+        const USERNAME_EMAIL_MESSAGES = {
             "en": "Please enter your username or email.",
             "pt": "Por favor, insira o seu nome de usuário ou email.",
-            "es": "Por favor, introduzca su nombre de usuario o correo eletrónico."
+            "es": "Por favor, introduzca su nombre de usuario o correo electrónico."
         };
+        
+        const PASSWORD_MESSAGES = {
+            "en": "Please enter your password.",
+            "pt": "Por favor, insira a sua senha.",
+            "es": "Por favor, introduzca su contraseña."
+        }
 
         // Função para obter mensagem de validação com base no idioma com fallback para inglês
-        function getValidationMessage(locale){
-            return validationMessages[locale] || validationMessages['en'];
+        function USERNAME_EMAIL_VALIDATION(locale){
+            return USERNAME_EMAIL_MESSAGES[locale] || USERNAME_EMAIL_MESSAGES['en'];
         }
         
+        function PASSWORD_VALIDATION(locale){
+            return PASSWORD_MESSAGES[locale] || PASSWORD_MESSAGES['en'];
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             
 
             // Selecionar o campo de entrada
             const nameInput = document.querySelector('[name="username"]');
+            const PASSWORD_INPUT = document.querySelector('[name="password"]');
             const languageSelector = document.getElementById('language-selector');
 
             // Obter idioma salvo ou do navegador
@@ -114,12 +123,19 @@
 
             // Adicionar evento de validação
             nameInput.addEventListener('invalid', () => {
-                nameInput.setCustomValidity(getValidationMessage(savedLocale));
+                nameInput.setCustomValidity(USERNAME_EMAIL_VALIDATION(savedLocale)); //
             });
+            PASSWORD_INPUT.addEventListener('invalid', () => {
+                PASSWORD_INPUT.setCustomValidity(PASSWORD_VALIDATION(savedLocale));
+            });
+
 
             // Limpar a mensagem personalizada quando o usuário corrigir o valor
             nameInput.addEventListener('input', () => {
                 nameInput.setCustomValidity('');
+            });
+            PASSWORD_INPUT.addEventListener('input', () => {
+                PASSWORD_INPUT.setCustomValidity('');
             });
 
             
