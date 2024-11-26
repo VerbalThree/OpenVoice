@@ -23,7 +23,7 @@ A missão desse projeto é oferecer uma plataforma que respeite a liberdade de e
 Explore os princípios que fundamentam a criação desta plataforma.
 
 <ul>
-  <li><a href="misc/media/Documentação/Versão de Setembro de 2024/Documentação_OpenVoice.pdf">Documentação em PDF</a></li>
+  <li><a href="misc/media/Documentação/Versão de Novembro de 2024/Documentação_OpenVoice_Novembro2024.pdf">Documentação em PDF</a></li>
   <li><a href="misc/diagramas">Pasta de Diagramas</a></li>
   <li><a href="misc/wireframes">Pasta de Wireframes</a></li>
 </ul>
