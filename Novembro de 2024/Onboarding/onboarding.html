@@ -20,9 +20,8 @@
     <!-- Formulário de Login -->
      <div class="loginForm">
         <form method="POST">
-            <label for="username" id="title" class="label">Nome de Usuário</label>
-            <input type="text" id="username" class="text-input" autocomplete="off" required>
-
+            <label for="username" id="title" class="label">Nome de Usuário ou Email</label>
+            <input type="text" id="username" class="text-input" autocomplete="off" name="username" required>
         </form>
      </div>
 
@@ -31,20 +30,31 @@
         <option value="pt">Português</option>
         <option value="es">Español</option>
     </select>
-     
-     <script>
-        
-        // Obter idioma do navegador
-        const userLocale = navigator.language || navigator.userLanguage;
+    
 
-        // Definir traduções
-        const translations = {
+
+
+    <script>
+        
+      //  const nameInput = document.querySelector('[name="username"]');
+//nameInput.addEventListener('invalid', () => {
+  //  nameInput.setCustomValidity('Please enter your username or email.');
+ // });
+
+         // Obter idioma do navegador
+         const userLocale = navigator.language || navigator.userLanguage;
+         
+         // Definir traduções
+         const translations = {
             "en": {
-                title: "Username",
+                title: "Username or Email",
             },
             "pt": {
-                title: "Nome de Usuário",
-            }
+                title: "Nome de Usuário ou Email",
+            },
+            "es": {
+                title: "Nombre de Usuario o Correo Eletrónico",
+            },
         };
 
         // Função para aplicar as traduções
@@ -52,13 +62,13 @@
             
             // Extraindo a língua principal
             const language = locale.split('-')[0];
-
+            
             // Selecionar traduções, com fallback para Inglês
             const translation = translations[language] || translations['en'];
-
+            
             // Alterar o conteúdo
             document.getElementById('title').innerText = translation.title;
-
+            
             // Atualizar o atributo Lang da página
             document.documentElement.lang = locale;
         }
@@ -74,6 +84,52 @@
             });
         });
 
+        
+        // Mensagem de validação em diferentes idiomas
+        const validationMessages = {
+            "en": "Please enter your username or email.",
+            "pt": "Por favor, insira o seu nome de usuário ou email.",
+            "es": "Por favor, introduzca su nombre de usuario o correo eletrónico."
+        };
+
+        // Função para obter mensagem de validação com base no idioma com fallback para inglês
+        function getValidationMessage(locale){
+            return validationMessages[locale] || validationMessages['en'];
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // Selecionar o campo de entrada
+            const nameInput = document.querySelector('[name="username"]');
+            const languageSelector = document.getElementById('language-selector');
+
+            // Obter idioma salvo ou do navegador
+            const savedLocale = localStorage.getItem('preferredLanguage') || userLocale;
+            applyLocalization(savedLocale);
+
+            // Adicionar evento de validação
+            nameInput.addEventListener('invalid', () => {
+                nameInput.setCustomValidity(getValidationMessage(savedLocale));
+            });
+
+            // Limpar a mensagem personalizada quando o usuário corrigir o valor
+            nameInput.addEventListener('input', () => {
+                nameInput.setCustomValidity('');
+            });
+
+            
+            // Definir idioma conforme dropdown
+            languageSelector.addEventListener('change', (event) => {
+                const selectedLanguage = event.target.value;
+
+                // Aplicar a localização com o idioma localizado
+                applyLocalization(selectedLanguage);
+                
+                // Salvar o idioma selecionado no LocalStorage
+                localStorage.setItem('preferredLanguage', selectedLanguage);
+
+            });
+        });
      </script>
 </body>
 </html>
