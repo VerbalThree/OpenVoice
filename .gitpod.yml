@@ -6,5 +6,7 @@
 
 tasks:
   - command: python app.py
+  - command : yarn install
+  - command: yarn run watch
 
 

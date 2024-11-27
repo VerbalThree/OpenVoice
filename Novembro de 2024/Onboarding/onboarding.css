@@ -1,0 +1,331 @@
+* {
+    font-family: inter;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: inter;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+:root {
+    --base-size-64: 64px;
+    --base-size-40: 40px;
+    --base-size-32: 32px;
+    --base-size-24: 24px;
+    --base-size-16: 16px;
+    --base-size-12: 12px;
+    --base-size-8: 8px;
+    --base-size-4: 4px;
+    --base-size-2: 2px;
+    --borderWidth-thin: max(1px, 0.0625rem);
+    --h6-size: 12px;
+    --borderColor-default: #ADADAD;
+    --borderRadius-medium: 12px;
+    --borderRadius-small: 6px;
+    --borderRadius-large: 18px;
+    --backgroundColor: #F7F7F7;
+}
+
+/* Formulário de Login */
+.auth-form-body {
+    font-size: 14px;
+    padding: var(--base-size-16);
+    background-color: #F7F7F7;
+    width: 118%;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: var(--borderWidth-thin) solid var(--borderColor-default);
+    border-radius: var(--borderRadius-medium);
+}
+
+.mt-3 {
+    var(--base-size-16, 16px) !important;
+}
+
+.auth-form-body label {
+    display: block;
+    margin-bottom: var(--base-size-8);
+    text-align: left;
+}
+
+.input-block {
+    display: block;
+    width: 265px;
+}
+
+.form-control {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 18px;
+    border:1px solid #ADADAD;
+    border-radius: 6px;
+}
+
+.auth-form-body .input-block {
+    margin-top: var(--base-size-4);
+    margin-bottom: var(--base-size-16);
+  }
+
+.auth-form {
+    width: 331px;
+    margin: 0 auto;
+}
+
+.px-3 {
+    padding-right: var(--base-size-16, 16px) !important;
+    padding-left: var(--base-size-16, 16px) !important;
+}
+
+.auth-form-header {
+    margin-bottom: var(--base-size-16);
+    color: black;
+    text-align: center;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.auth-form-header h1 {
+    font-size:24px;
+    letter-spacing: -0.5px;
+}
+
+.p-0 {
+    padding: 0 !important;
+    font-size: var(--base-size-12);
+}
+
+.label-link {
+    float: right;
+    font-size: 12px;
+}
+
+.right-0{
+    right: 0 !important;
+}
+
+.top-0{
+    top: 0 !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+button#toggle-password {
+    cursor: pointer;
+    background-color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+#toggle-password:hover {
+    background-color: #ccc;
+  }
+
+.container::before {
+    display:table;
+    content: "";
+}
+
+.clearfix::before {
+    display: table;
+    content: "";
+}
+
+.container::after{
+    display:table;
+    clear:both;
+    content: "";
+}
+
+.clearflix::after {
+    display:table;
+    clear:both;
+    content: "";
+}
+
+.punctum {
+    display: inline-block;
+    overflow: visible !important;
+    vertical-align: text-bottom;
+    margin-right: var(--base-size-8);
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.position-relative{
+    position: relative !important;
+}
+
+.header-logged-out {
+    background-origin: transparent;
+    border-bottom: 0;
+}
+
+.pt-5 {
+    padding-top: var(--base-size-32, 32px) !important;
+}
+
+.pb-4 {
+    padding-bottom: var(--base-size-24, 24px) !important;
+}
+
+.width-full {
+    width: 100% !important;
+}
+
+.auth-form .btn {
+    margin-top: var(--base-size-16);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align:center;
+}
+
+.btn-primary {
+    color: white;
+    background-color:#1586ff;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.f6 {
+    font-size: var(--h6-size, 12px) !important;
+}
+
+@media (min-width: 1012px){
+    .p-responsive {
+        padding-right: var(--base-size-16) !important;
+        padding-left: var(--base-size-16) !important;
+    }
+}
+
+@media (min-width: 544px) {
+    .p-responsive {
+        padding-right: var(--base-size-40) !important;
+        padding-left: var(--base-size-40) !important;
+    }
+}
+
+.p-responsive {
+    padding-right: var(--base-size-16) !important;
+    padding-left: var(--base-size-16) !important;
+}
+
+.py-6 {
+    padding-top: var(--base-size-40, 40px) !important;
+    padding-bottom: var(--base-size-40, 40px) !important;
+}
+
+.mt-6 {
+    margin-top: var(--base-size-40, 40px) !important;
+}
+
+@media (min-width: 1012px){
+    .flex-lg-nowrap {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (min-width> 1012px){
+    .flex-lg-row {
+        flex-direction: row !important;
+    }
+}
+
+.flex-items-center {
+    align-items: center !important;
+}
+
+.flex-justify-center {
+    justify-content: center !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-style-none {
+    list-style: none !important;
+}
+
+.mb-lg-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-2 {
+    margin-bottom: var(--base-size-8, 8px) !important;
+}
+
+ul, ol {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mx-2 {
+    margin-right: var(--base-size-8, 8px) !important;
+    margin-left: var(--base-size-8, 8px) !important;
+}
+
+.Link {
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+    border: 1px solid white;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.Link:hover {
+    background-color: #ccc;
+}
+
+.login-callout {
+    padding: var(--base-size-16) var(--base-size-16);
+    text-align: center;
+    border: var(--borderWidth-thin) solid var(--borderColor-default);
+    border-radius: var(--borderRadius-small);
+    background-color: var(--backgroundColor);
+}
+
+.create-account-text {
+    text-decoration: none;
+    border: 1px solid var(--backgroundColor);
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    background-color: var(--backgroundColor);
+}
+
+.create-account-text:hover {
+    background-color: #ccc;
+}
