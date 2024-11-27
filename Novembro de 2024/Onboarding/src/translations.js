@@ -55,3 +55,4 @@ export const PASSWORD_MESSAGES = {
     "pt": "Por favor, insira a sua senha.",
     "es": "Por favor, introduzca su contraseña."
  }
+
