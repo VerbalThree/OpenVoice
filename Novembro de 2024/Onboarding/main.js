@@ -1,22 +1,8 @@
+import { translations, USERNAME_EMAIL_MESSAGES, PASSWORD_MESSAGES } from './src/translations.js';
+
 // Obter idioma do navegador
 const userLocale = navigator.language || navigator.userLanguage;
          
-// Definir traduções
-const translations = {
-   "en": {
-       USERNAME_LABEL: "Username or Email",
-       PASSWORD_LABEL: "Password",
-   },
-   "pt": {
-       USERNAME_LABEL: "Nome de Usuário ou Email",
-       PASSWORD_LABEL: "Senha",
-   },
-   "es": {
-       USERNAME_LABEL: "Nombre de Usuario o Correo Eletrónico",
-       PASSWORD_LABEL: "Contraseña",
-   },
-};
-
 // Função para aplicar as traduções
 function applyLocalization(locale){
    
@@ -44,20 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
        applyLocalization(event.target.value);
    });
 });
-
-
-// Mensagem de validação em diferentes idiomas
-const USERNAME_EMAIL_MESSAGES = {
-   "en": "Please enter your username or email.",
-   "pt": "Por favor, insira o seu nome de usuário ou email.",
-   "es": "Por favor, introduzca su nombre de usuario o correo electrónico."
-};
-
-const PASSWORD_MESSAGES = {
-   "en": "Please enter your password.",
-   "pt": "Por favor, insira a sua senha.",
-   "es": "Por favor, introduzca su contraseña."
-}
 
 // Função para obter mensagem de validação com base no idioma com fallback para inglês
 function USERNAME_EMAIL_VALIDATION(locale){

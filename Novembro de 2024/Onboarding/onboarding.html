@@ -145,7 +145,7 @@
 
     <!-- Header com o nome da rede social -->
     <div class="auth-form-header p-0">
-        <h1 style="font-size:24px">Entre no OpenVoice</h1>
+        <h1 id="auth-header" style="font-size:24px">Entre no OpenVoice</h1>
     </div>
 
     <!-- Formulário de Login -->
@@ -159,16 +159,18 @@
                 <input type="password" id="password" class="form-control input-block js-login-field" autocomplete="off" name="password" required>
                 <button id="toggle-password" type="button" class="label-link position-absolute top-0 right-0">Mostrar senha</button>
 
-            <button class="btn btn-primary btn-block js-sign-in-button psw-btn" type="submit">Entrar</button>
+            <button id="login-button" class="btn btn-primary btn-block js-sign-in-button psw-btn" type="submit">Entrar</button>
         </div>
         </form>
      </div>
 
     <!-- Alternativa para criar uma conta -->
     <div class="login-callout mt-3">
-        <p class="mt-1 mb-0 p-0">
+        <p id="create-account-paragraph" class="mt-1 mb-0 p-0">
             Não tem uma conta?
-            <a href="#" class="create-account-text"><strong>Crie uma agora</strong></a>
+            <a id="rationem" href="#" class="create-account-text">
+                <strong id="rationem-text">Crie uma agora</strong>
+            </a>
         </p>
     </div>
     </div>
@@ -178,16 +180,16 @@
     <div class="footer container-lg p-responsive py-6 mt-6 f6 d-flex flex-justify-center flex-items-center flex-lg-row flex-wrap flex-lg-nowrap" role="contentinfo">
         <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0">
             <li class="mx-2">
-                <a class="Link--secondary Link" href="#">Sobre o OpenVoice</a>
+                <a id="about-us" class="Link--secondary Link" href="#">Sobre o OpenVoice</a>
             </li>
             <li class="mx-2">
-                <a class="Link--secondary Link" href="assets/Documentação_OpenVoice_Novembro2024.pdf" download="Documentação_OpenVoice_Novembro2024">Documentação</a>
+                <a id="docs" class="Link--secondary Link" href="assets/Documentação_OpenVoice_Novembro2024.pdf" download="Documentação_OpenVoice_Novembro2024">Documentação</a>
             </li>
             <li class="mx-2">
-                <a class="Link--secondary Link" href="https://github.com/VerbalThree/OpenVoice">Repositório no GitHub</a>
+                <a id="repository" class="Link--secondary Link" href="https://github.com/VerbalThree/OpenVoice">Repositório no GitHub</a>
             </li>
             <li class="mx-2">
-                <a class="Link--secondary Link" href="https://www.linkedin.com/in/felipe-pereira-1678b5331/">© 2024 OpenVoice por Felipe Pereira</a>
+                <a id="copyright" class="Link--secondary Link" href="https://www.linkedin.com/in/felipe-pereira-1678b5331/">© 2024 OpenVoice por Felipe Pereira</a>
             </li>
             <li>
                 <select id="language-selector">
@@ -202,6 +204,6 @@
 
 
     </div>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
