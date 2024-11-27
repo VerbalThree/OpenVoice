@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
    languageSelector.addEventListener('change', (event) => {
        const selectedLanguage = event.target.value;
 
-       // Aplicar a localização com o idioma localizado
+       // Aplicar a localização com o idioma localizadoco
        applyLocalization(selectedLanguage);
        
        // Salvar o idioma selecionado no LocalStorage
@@ -120,9 +120,9 @@ TOGGLE_PASSWORD_BUTTON.addEventListener('click', TOGGLE_PASSWORD);
 function TOGGLE_PASSWORD() {
     if (passwordInput.type === 'password'){
         passwordInput.type = 'text';
-        TOGGLE_PASSWORD_BUTTON.innerHTML = '<i class="fa-solid fa-eye-slash"></i>';
+        TOGGLE_PASSWORD_BUTTON.innerText = "Ocultar senha";
     } else {
         passwordInput.type = 'password';
-        TOGGLE_PASSWORD_BUTTON.innerHTML = '<i class="fa-solid fa-eye"></i>';
+        TOGGLE_PASSWORD_BUTTON.innerText = "Mostrar senha";
     }
 }
