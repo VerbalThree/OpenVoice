@@ -39,8 +39,8 @@ body, html {
     font-size: 14px;
     padding: var(--base-size-16);
     background-color: #F7F7F7;
-    width: 253px;
-    max-width: 253px;
+    width: 118%;
+    max-width: 300px;
     box-sizing: border-box;
     border: var(--borderWidth-thin) solid var(--borderColor-default);
     border-radius: var(--borderRadius-medium);
@@ -58,13 +58,13 @@ body, html {
 
 .input-block {
     display: block;
-    width: 100%;
+    width: 265px;
 }
 
 .form-control {
     padding: 5px 12px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     border:1px solid #ADADAD;
     border-radius: 6px;
 }
@@ -75,7 +75,7 @@ body, html {
   }
 
 .auth-form {
-    width: 287px;
+    width: 331px;
     margin: 0 auto;
 }
 
@@ -315,13 +315,15 @@ ul, ol {
     text-align: center;
     border: var(--borderWidth-thin) solid var(--borderColor-default);
     border-radius: var(--borderRadius-small);
+    background-color: var(--backgroundColor);
 }
 
 .create-account-text {
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid var(--backgroundColor);
     border-radius: 12px;
     transition: background-color 0.3s;
+    background-color: var(--backgroundColor);
 }
 
 .create-account-text:hover {
