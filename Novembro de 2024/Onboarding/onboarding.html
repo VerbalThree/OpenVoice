@@ -158,8 +158,8 @@
             
         <div class="position-relative">
             <label for="password" id="password-label" class="label"">Senha</label>
-                <input type="password" id="password" class="form-control input-block js-login-field" autocomplete="off" name="password" required>
-                <button id="toggle-password" type="button" class="label-link position-absolute top-0 right-0">Mostrar senha</button>
+                <input type="password" id="current-password" class="form-control input-block js-login-field" autocomplete="current-password" name="password" required>
+                <button id="toggle-password" type="button" class="label-link position-absolute top-0 right-0" aria-label="Mostrar senha em texto. Aviso: Isso irá mostrar a sua senha na tela.">Mostrar senha</button>
 
             <button id="login-button" class="btn btn-primary btn-block js-sign-in-button psw-btn" type="submit">Entrar</button>
         </div>
@@ -204,7 +204,7 @@
         </ul>
     </div>
 
-    <div class="row gap align-top">
+    <div id="dark-mode" class="row gap align-top">
         Dark mode Setting:
         <label><input name="color-scheme" type="radio" value="light dark" checked>System</label>
         <label><input name="color-scheme" type="radio" value="light">Forced light</label>

@@ -372,3 +372,8 @@ ul, ol {
     border-color: light-dark(#0b5ed7, #086301);
     background-color: light-dark(#0b5ed7, #086301);
 }
+
+/* Seleção do dark mode */
+#dark-mode {
+    display: none;
+}
