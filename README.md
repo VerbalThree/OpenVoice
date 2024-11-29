@@ -38,7 +38,6 @@ O OpenVoice foi criado utilizando as seguintes tecnologias:
 - **[Vue Router](https://router.vuejs.org/)**: Gerenciamento de rotas para navegação no front-end, possibilitando que o projeto seja uma [Single-page Application](https://developer.mozilla.org/en-US/docs/Glossary/SPA).
 - **[Vue I18n](https://vue-i18n.intlify.dev/)**: Para suporte a internacionalização e tradução.
 - **[Laravel](https://laravel.com/)**: Framework PHP para o desenvolvimento do Back-end.
-- **[WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)**: Para comunicação em tempo real entre o cliente e o servidor.
 - **[MySQL](https://www.mysql.com/)**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenamento de dados.
 
 ## Diretrizes
