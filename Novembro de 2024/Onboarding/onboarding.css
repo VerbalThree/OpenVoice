@@ -1,20 +1,3 @@
-* {
-    font-family: inter;
-}
-
-body, html {
-    margin: 0;
-    height: 100%;
-    font-family: inter;
-}
-
-.inter{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
 :root {
     --base-size-64: 64px;
     --base-size-40: 40px;
@@ -31,18 +14,72 @@ body, html {
     --borderRadius-medium: 12px;
     --borderRadius-small: 6px;
     --borderRadius-large: 18px;
-    --backgroundColor: #F7F7F7;
+    --brand-text-letterSpacing-1: 2.5rem;
+}
+
+:root {
+    --brand-text-letterSpacing-2: 0.05rem;
+}
+
+:root {
+    color-scheme: light dark;
+    --primary-color: light-dark(#FFFFFF, #333);
+    --primary-background: light-dark(#F7F7F7,#1C222A);
+    --primary-background-button-hover-color: light-dark(#898989, #086301);
+    --highlight-color: light-dark(#1586ff, #2b802b);
+    --text-color: light-dark(#000000, #FFFFFF);
+    --border-color: light-dark(#ADADAD, #4A4C4F);
+    --link-hover: light-dark(#ccc,#877777);
+    --button-border-color: light-dark(#1586ff, lime);
+    --background-hover-color: light-dark(#0b5ed7,);
+    --border-hover-color: light-dark(#0a58ca,);
+}
+
+:root{
+    --primary-background-button-color: light-dark(#000000, #2b802b);
+    --primary-background-button-hover-color: light-dark(#898989, #086301);
+    --border-button-hover-color: light-dark(#898989, #086301);
+
+}
+
+:root{
+    &:has(input[name="color-scheme"][value="light dark"]:checked){ color-scheme: light dark;}
+    &:has(input[name="color-scheme"][value="light"]:checked){ color-scheme: light;}
+    &:has(input[name="color-scheme"][value="dark"]:checked){ color-scheme: dark;}
+}
+
+* {
+    font-family: inter;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: inter;
+    background-color: var(--primary-color);
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.source-serif-4 {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Formulário de Login */
 .auth-form-body {
     font-size: 14px;
     padding: var(--base-size-16);
-    background-color: #F7F7F7;
+    background-color: var(--primary-background);
     width: 118%;
     max-width: 300px;
     box-sizing: border-box;
-    border: var(--borderWidth-thin) solid var(--borderColor-default);
+    border: var(--borderWidth-thin) solid var(--border-color);
     border-radius: var(--borderRadius-medium);
 }
 
@@ -54,6 +91,7 @@ body, html {
     display: block;
     margin-bottom: var(--base-size-8);
     text-align: left;
+    color: var(--text-color);
 }
 
 .input-block {
@@ -65,7 +103,7 @@ body, html {
     padding: 5px 12px;
     font-size: 14px;
     line-height: 18px;
-    border:1px solid #ADADAD;
+    border:1px solid var(--border-color);
     border-radius: 6px;
 }
 
@@ -86,7 +124,7 @@ body, html {
 
 .auth-form-header {
     margin-bottom: var(--base-size-16);
-    color: black;
+    color: var(--text-color);
     text-align: center;
     text-shadow: none;
     background-color: transparent;
@@ -101,6 +139,7 @@ body, html {
 .p-0 {
     padding: 0 !important;
     font-size: var(--base-size-12);
+    color: var(--text-color);
 }
 
 .label-link {
@@ -126,14 +165,15 @@ body, html {
 
 button#toggle-password {
     cursor: pointer;
-    background-color: #F7F7F7;
-    border: 1px solid #F7F7F7;
+    background-color: var(--primary-background);
+    border: 1px solid var(--primary-background);
     border-radius: 6px;
     transition: background-color 0.3s;
+    color: var(--text-color);
 }
 
 #toggle-password:hover {
-    background-color: #ccc;
+    background-color: var(--link-hover)
   }
 
 .container::before {
@@ -203,7 +243,8 @@ button#toggle-password {
 
 .btn-primary {
     color: white;
-    background-color:#1586ff;
+    background-color: var(--highlight-color);
+   
 }
 
 .d-flex {
@@ -297,9 +338,9 @@ ul, ol {
 
 .Link {
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     opacity: 75%;
-    border: 1px solid white;
+    border: 1px solid light-dark(white, transparent);
     border-radius: 12px;
     transition: background-color 0.3s;
     padding-right: 3px;
@@ -307,15 +348,15 @@ ul, ol {
 }
 
 .Link:hover {
-    background-color: #ccc;
+    background-color: var(--link-hover);
 }
 
 .login-callout {
     padding: var(--base-size-16) var(--base-size-16);
     text-align: center;
-    border: var(--borderWidth-thin) solid var(--borderColor-default);
+    border: var(--borderWidth-thin) solid var(--border-color);
     border-radius: var(--borderRadius-small);
-    background-color: var(--backgroundColor);
+    background-color: var(--primary-background);
 }
 
 .create-account-text {
@@ -328,4 +369,72 @@ ul, ol {
 
 .create-account-text:hover {
     background-color: #ccc;
+}
+
+#rationem{
+    color: #1586ff;
+    transition: background-color 0.3s;
+}
+
+#rationem:hover{
+    background-color: var(--link-hover);
+}
+
+#login-button {
+    background-color: var(--primary-background-button-color);
+    border-color: var(--primary-background-button-color);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#login-button:hover {
+    border-color: var(--border-button-hover-color);
+    background-color: var(--primary-background-button-hover-color);
+}
+
+/* Seleção do dark mode */
+#dark-mode {
+display: none;
+}
+
+/* Texto do Sobre nós */
+.about-us-body {
+    font-size: 14px;
+    padding: var(--base-size-16);
+    width: 118%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.about-us-heading {
+    grid-column: 1 / -1;
+    grid-row: heading;
+    text-align: center;
+    font-size: var(--base-size-32);
+    line-height: var(--brand-text-letterSpacing-1);
+    letter-spacing: var( --brand-text-letterSpacing-2);
+    color: var(--text-color);
+}
+
+@media (max-width: 1011px) {
+    .about-us-heading {
+        font-size: 1.08em;
+        line-height: 1.5em;
+        letter-spacing: 0.001em;
+    }
+}
+
+/* Botão para entrar na conta do Sobre Nós */
+#signin-button {
+    width: 254px;
+    max-width: 300px;
+    justify-content: center;
+    margin: var(--base-size-24);
+    background-color: var(--primary-background-button-color);
+    border: 1px solid var(--primary-background-button-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#signin-button:hover {
+    background-color: var(--primary-background-button-hover-color);
+    border-color: var(--border-button-hover-color)
 }
